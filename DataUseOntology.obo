@@ -1,0 +1,173 @@
+DUOformat-version: 1.2
+data-version: DUO/20160927
+import: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
+ontology: DataUseOntology
+property_value: http://purl.org/dc/elements/1.1/contributor "Dylan Spalding" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Giselle Kerry" xsd:string
+property_value: http://purl.org/dc/elements/1.1/creator "Melanie Courtot" xsd:string
+
+[Term]
+id: DUO:0000001
+name: consent code
+def: "A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used." []
+is_a: IAO:0000027 ! data item
+
+[Term]
+id: DUO:0000002
+name: consent code primary category
+def: "A categorical data item indicating the primary category the consent code belongs to according to Dyke et al. 2016." []
+is_a: DUO:0000001 ! consent code
+
+[Term]
+id: DUO:0000003
+name: consent code secondary category
+def: "A categorical data item indicating the secondary category the consent code belongs to according to Dyke et al. 2016." []
+is_a: DUO:0000001 ! consent code
+
+[Term]
+id: DUO:0000004
+name: no restriction
+def: "This consent code primary category indicates there is no restriction on use." []
+comment: Note: the NRES alternative term may be confusing as in the UK it also stands for National Research Ethics Service
+is_a: DUO:0000002 ! consent code primary category
+
+[Term]
+id: DUO:0000005
+name: general research use and clinical care
+def: "This primary category consent code indicates that use is allowed for health/medical/biomedical purposes, including the study of population origins or ancestry." []
+is_a: DUO:0000002 ! consent code primary category
+
+[Term]
+id: DUO:0000006
+name: health/medical/biomedical research and clinical care
+def: "This primary category consent code indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry." []
+is_a: DUO:0000002 ! consent code primary category
+
+[Term]
+id: DUO:0000007
+name: disease-specific research and clinical care
+def: "This primary category consent code indicates that use is allowed providede it is related to the specified disease." []
+is_a: DUO:0000002 ! consent code primary category
+relationship: DUO:0000010 DOID:4 ! is restricted to disease
+
+[Term]
+id: DUO:0000011
+name: population origins or ancestry research
+def: "This primary category consent code indicates that use of the data is limited to the study of population origins or ancestry." []
+is_a: DUO:0000002 ! consent code primary category
+property_value: IAO:0000118 "population origins/ancestry research" xsd:string
+
+[Term]
+id: DUO:0000012
+name: research-specific restrictions
+def: "This secondary category consent code indicates that use is limited to studies of a certain research type." []
+is_a: DUO:0000003 ! consent code secondary category
+relationship: DUO:0000010 topic:0003 ! is restricted to Topic
+
+[Term]
+id: DUO:0000014
+name: research use only
+def: "This secondary category consent code indicates that use is limited to research purposes (e.g., does not include its use in clinical care)." []
+is_a: DUO:0000003 ! consent code secondary category
+
+[Term]
+id: DUO:0000015
+name: no geneneral methods research
+def: "This secondary category consent code indicates that use includes methods development research(e.g., development of software or algorithms) only wihtin the bounds of other use limitations." []
+is_a: DUO:0000003 ! consent code secondary category
+
+[Term]
+id: DUO:0000016
+name: genetic studies only
+def: "This secondary category consent code indicates that use is limited to genetic studies only (i.e., no phenotype-only research)" []
+is_a: DUO:0000003 ! consent code secondary category
+
+[Term]
+id: DUO:0000017
+name: requirements
+def: "Requirements indicate additional conditions set for use." []
+is_a: DUO:0000001 ! consent code
+
+[Term]
+id: DUO:0000018
+name: not-for-profit use only
+def: "This requirement indicates that use is limited to not-for-profit organizations." []
+is_a: DUO:0000017 ! requirements
+
+[Term]
+id: DUO:0000019
+name: publication required
+def: "This requirement indicates that reuqestor agrees to make results of studies using the data available to the larger scientific community." []
+is_a: DUO:0000017 ! requirements
+
+[Term]
+id: DUO:0000020
+name: collaboration required
+is_a: DUO:0000017 ! requirements
+
+[Term]
+id: DUO:0000021
+name: ethics approval required
+def: "This requirement indicates that the requestor must provide documentation of local IRB/ERB approval." []
+is_a: DUO:0000017 ! requirements
+
+[Term]
+id: DUO:0000022
+name: geographical restriction
+def: "This requirement indicates that use is limited to within a specific geographic region." []
+is_a: DUO:0000017 ! requirements
+relationship: DUO:0000010 GAZ:00000448 ! is restricted to geographic location
+
+[Term]
+id: DUO:0000024
+name: publication moratorium
+def: "This requirement indicates that requestor agrees not to publish results of studies until a specific date" []
+is_a: DUO:0000017 ! requirements
+property_value: IAO:0000118 "publication embargo" xsd:string
+
+[Term]
+id: DUO:0000025
+name: time limit on use
+def: "This requirement indicates that use is approved for a specific number of months." []
+is_a: DUO:0000017 ! requirements
+
+[Term]
+id: DUO:0000026
+name: user-specific restriction
+def: "This requirement indicates that use is limited to use by approved users." []
+is_a: DUO:0000017 ! requirements
+
+[Term]
+id: DUO:0000027
+name: project-specific restriction
+def: "This requirement indicates that use is limited to use wihtin an approved project." []
+is_a: DUO:0000017 ! requirements
+
+[Term]
+id: DUO:0000028
+name: institution-specific restriction
+def: "This requirement indicates that use is limited to use within an approved institution." []
+is_a: DUO:0000017 ! requirements
+
+[Term]
+id: DOID:4
+name: disease
+def: "A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism. [url:http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf ]" []
+is_a: BFO:0000016 ! disposition
+
+[Term]
+id: GAZ:00000448
+name: geographic location
+is_a: IAO:0000030 ! information content entity
+
+[Term]
+id: topic:0003
+name: Topic
+def: "A category denoting a rather broad domain or field of interest, of study, application, work, data, or technology. Topics have no clearly defined borders between each other." []
+is_a: IAO:0000030 ! information content entity
+
+[Typedef]
+id: DUO:0000010
+name: is restricted to
+def: "An object propoerty linking a consent code to a specific restriction which further constrains it, such as research should be restricted to a specific disease or geographical location." []
+
