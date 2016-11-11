@@ -1,10 +1,17 @@
-DUOformat-version: 1.2
+format-version: 1.2
 data-version: DUO/20160927
 import: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
 ontology: DataUseOntology
+property_value: DUOformat-version "1.2" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Dylan Spalding" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Giselle Kerry" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Melanie Courtot" xsd:string
+
+[Term]
+id: DOID:4
+name: disease
+def: "A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism. [url:http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf ]" []
+is_a: BFO:0000016 ! disposition
 
 [Term]
 id: DUO:0000001
@@ -84,76 +91,70 @@ is_a: DUO:0000003 ! consent code secondary category
 
 [Term]
 id: DUO:0000017
-name: requirements
+name: data use requirements
 def: "Requirements indicate additional conditions set for use." []
-is_a: DUO:0000001 ! consent code
+is_a: IAO:0000027 ! data item
 
 [Term]
 id: DUO:0000018
 name: not-for-profit use only
 def: "This requirement indicates that use is limited to not-for-profit organizations." []
-is_a: DUO:0000017 ! requirements
+is_a: DUO:0000017 ! data use requirements
 
 [Term]
 id: DUO:0000019
 name: publication required
 def: "This requirement indicates that reuqestor agrees to make results of studies using the data available to the larger scientific community." []
-is_a: DUO:0000017 ! requirements
+is_a: DUO:0000017 ! data use requirements
 
 [Term]
 id: DUO:0000020
 name: collaboration required
-is_a: DUO:0000017 ! requirements
+is_a: DUO:0000017 ! data use requirements
 
 [Term]
 id: DUO:0000021
 name: ethics approval required
 def: "This requirement indicates that the requestor must provide documentation of local IRB/ERB approval." []
-is_a: DUO:0000017 ! requirements
+is_a: DUO:0000017 ! data use requirements
 
 [Term]
 id: DUO:0000022
 name: geographical restriction
 def: "This requirement indicates that use is limited to within a specific geographic region." []
-is_a: DUO:0000017 ! requirements
+is_a: DUO:0000017 ! data use requirements
 relationship: DUO:0000010 GAZ:00000448 ! is restricted to geographic location
 
 [Term]
 id: DUO:0000024
 name: publication moratorium
 def: "This requirement indicates that requestor agrees not to publish results of studies until a specific date" []
-is_a: DUO:0000017 ! requirements
+is_a: DUO:0000017 ! data use requirements
 property_value: IAO:0000118 "publication embargo" xsd:string
 
 [Term]
 id: DUO:0000025
 name: time limit on use
 def: "This requirement indicates that use is approved for a specific number of months." []
-is_a: DUO:0000017 ! requirements
+is_a: DUO:0000017 ! data use requirements
 
 [Term]
 id: DUO:0000026
 name: user-specific restriction
 def: "This requirement indicates that use is limited to use by approved users." []
-is_a: DUO:0000017 ! requirements
+is_a: DUO:0000017 ! data use requirements
 
 [Term]
 id: DUO:0000027
 name: project-specific restriction
 def: "This requirement indicates that use is limited to use wihtin an approved project." []
-is_a: DUO:0000017 ! requirements
+is_a: DUO:0000017 ! data use requirements
 
 [Term]
 id: DUO:0000028
 name: institution-specific restriction
 def: "This requirement indicates that use is limited to use within an approved institution." []
-is_a: DUO:0000017 ! requirements
-
-[Term]
-id: DOID:4
-name: disease
-def: "A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism. [url:http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf ]" []
-is_a: BFO:0000016 ! disposition
+is_a: DUO:0000017 ! data use requirements
 
 [Term]
 id: GAZ:00000448
