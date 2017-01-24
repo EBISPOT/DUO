@@ -238,7 +238,7 @@
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000003"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This secondary category consent code indicates that use includes methods development research(e.g., development of software or algorithms) only wihtin the bounds of other use limitations.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000015</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no geneneral methods research</rdfs:label>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no general methods research</rdfs:label>
     </owl:Class>
     
 
