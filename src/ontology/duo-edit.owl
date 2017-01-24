@@ -15,6 +15,9 @@
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giselle Kerry</dc:contributor>
         <oboInOwl:DUOformat-version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:DUOformat-version>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dylan Spalding</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moran Ncabili</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gregory Rushton</dc:contributor>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David An</dc:contributor>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melanie Courtot</dc:creator>
     </owl:Ontology>
     
