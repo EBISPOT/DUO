@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/EBISPOT/DUO.svg?branch=master)](https://travis-ci.org/EBISPOT/DUO)
-[![DOI](https://zenodo.org/badge/13996/EBISPOT/DUO.svg)](https://zenodo.org/badge/latestdoi/13996/EBISPOT/DUO)
+#[![DOI](https://zenodo.org/badge/13996/EBISPOT/DUO.svg)](https://zenodo.org/badge/latestdoi/13996/EBISPOT/DUO)
 
 # duo
 
