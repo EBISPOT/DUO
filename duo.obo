@@ -1,23 +1,26 @@
 format-version: 1.2
-data-version: DUO/20160927
-import: http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl
-ontology: DataUseOntology
+data-version: releases/2017-01-24
+ontology: duo
 property_value: DUOformat-version "1.2" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "David An" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Dylan Spalding" xsd:string
 property_value: http://purl.org/dc/elements/1.1/contributor "Giselle Kerry" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Gregory Rushton" xsd:string
+property_value: http://purl.org/dc/elements/1.1/contributor "Moran Ncabili" xsd:string
 property_value: http://purl.org/dc/elements/1.1/creator "Melanie Courtot" xsd:string
+owl-axioms: Prefix(owl:=<http://www.w3.org/2002/07/owl#>)\nPrefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)\nPrefix(xml:=<http://www.w3.org/XML/1998/namespace>)\nPrefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)\nPrefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)\n\n\nOntology(\nDeclaration(Class(<http://purl.obolibrary.org/obo/BFO_0000016>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/GAZ_00000448>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000027>))\nDeclaration(Class(<http://purl.obolibrary.org/obo/IAO_0000030>))\n############################\n#   Classes\n############################\n\n# Class: <http://purl.obolibrary.org/obo/BFO_0000016> (<http://purl.obolibrary.org/obo/BFO_0000016>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/BFO_0000016> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/GAZ_00000448> (geographic location)\n\nSubClassOf(<http://purl.obolibrary.org/obo/GAZ_00000448> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000027> (<http://purl.obolibrary.org/obo/IAO_0000027>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IAO_0000027> owl:Thing)\n\n# Class: <http://purl.obolibrary.org/obo/IAO_0000030> (<http://purl.obolibrary.org/obo/IAO_0000030>)\n\nSubClassOf(<http://purl.obolibrary.org/obo/IAO_0000030> owl:Thing)\n\n\n)
 
 [Term]
 id: DOID:4
 name: disease
 def: "A disease is a disposition (i) to undergo pathological processes that (ii) exists in an organism because of one or more disorders in that organism. [url:http://ontology.buffalo.edu/medo/Disease_and_Diagnosis.pdf ]" []
-is_a: BFO:0000016 ! disposition
+is_a: BFO:0000016
 
 [Term]
 id: DUO:0000001
 name: consent code
 def: "A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used." []
-is_a: IAO:0000027 ! data item
+is_a: IAO:0000027
 
 [Term]
 id: DUO:0000002
@@ -79,7 +82,7 @@ is_a: DUO:0000003 ! consent code secondary category
 
 [Term]
 id: DUO:0000015
-name: no geneneral methods research
+name: no general methods research
 def: "This secondary category consent code indicates that use includes methods development research(e.g., development of software or algorithms) only wihtin the bounds of other use limitations." []
 is_a: DUO:0000003 ! consent code secondary category
 
@@ -93,7 +96,7 @@ is_a: DUO:0000003 ! consent code secondary category
 id: DUO:0000017
 name: data use requirements
 def: "Requirements indicate additional conditions set for use." []
-is_a: IAO:0000027 ! data item
+is_a: IAO:0000027
 
 [Term]
 id: DUO:0000018
@@ -159,13 +162,12 @@ is_a: DUO:0000017 ! data use requirements
 [Term]
 id: GAZ:00000448
 name: geographic location
-is_a: IAO:0000030 ! information content entity
 
 [Term]
 id: topic:0003
 name: Topic
 def: "A category denoting a rather broad domain or field of interest, of study, application, work, data, or technology. Topics have no clearly defined borders between each other." []
-is_a: IAO:0000030 ! information content entity
+is_a: IAO:0000030
 
 [Typedef]
 id: DUO:0000010
