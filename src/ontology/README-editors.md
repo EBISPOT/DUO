@@ -95,7 +95,7 @@ For questions on this email obo-admin AT obofoundry.org
 
 # Travis Continuous Integration System
 
-Check the build status here: [![Build Status](https://travis-ci.org/EBISPOT/duo.svg?branch=master)](https://travis-ci.org/EBISPOT/duo)
+Check the build status here: [![Build Status](https://travis-ci.org/EBISPOT/DUO.svg?branch=master)](https://travis-ci.org/EBISPOT/DUO)
 
 
 
