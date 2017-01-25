@@ -12,13 +12,15 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/duo.owl">
+        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl"/>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giselle Kerry</dc:contributor>
-        <oboInOwl:DUOformat-version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:DUOformat-version>
-        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dylan Spalding</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moran Ncabili</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Gregory Rushton</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">David An</dc:contributor>
+        <oboInOwl:DUOformat-version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">1.2</oboInOwl:DUOformat-version>
+        <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dylan Spalding</dc:contributor>
         <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Melanie Courtot</dc:creator>
+        <dc:contributor>Stephanie Dyke</dc:contributor>
     </owl:Ontology>
     
 
