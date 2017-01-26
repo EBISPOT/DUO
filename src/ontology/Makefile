@@ -7,11 +7,12 @@ ROBOT= robot
 OWLTOOLS= owltools
 USECAT= --use-catalog
 
-all: 
-	cp $(SRC) $(ONT).owl
+all: $(ONT).owl
+	
+test:all
 
-
-prepare_release: all
+prepare_release: 
+	$(ROBOT)  reason -i $(SRC) -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $(ONT).owl
 	cp $(ONT).owl $(RELEASEDIR) &&\
 	git add $(RELEASEDIR)/*.owl 
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
@@ -46,4 +47,4 @@ mirror/%.owl: $(SRC)
 .PRECIOUS: mirror/%.owl
 
 release: $(ONT).owl #$(ONT).obo
-	cp $^ $RELEASEDIR && cp imports/* $RELEASEDIR/imports
+	cp $^ $RELEASEDIR
