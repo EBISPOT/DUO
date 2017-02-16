@@ -1,6 +1,11 @@
 [![Build Status](https://travis-ci.org/EBISPOT/DUO.svg?branch=master)](https://travis-ci.org/EBISPOT/DUO)
 
-# duo
+# duo - the Data Use Ontology
+
+The latest version of the ontology can always be found at:
+
+http://purl.obolibrary.org/obo/duo.owl
+
 
 An ontology based on the consent codes decsription from the Dyke et al. paper at http://dx.doi.org/10.1371/journal.pgen.1005772
 
