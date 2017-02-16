@@ -1,9 +1,16 @@
 [![Build Status](https://travis-ci.org/EBISPOT/DUO.svg?branch=master)](https://travis-ci.org/EBISPOT/DUO)
 
-# duo - the Data Use Ontology
+# DUO - the Data Use Ontology
+
+## Availability
 
 The latest version of the ontology can always be found at: http://purl.obolibrary.org/obo/duo.owl
 
+DUO can be browsed online via the [Ontology Lookup Service](http://www.ebi.ac.uk/ols/ontologies/duo/terms?iri=http%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FDUO_0000001) or [Ontobee](http://www.ontobee.org/ontology/DUO). 
+
+It has been registered with the [OBO Foundry](http://obofoundry.org/ontology/duo.html).
+
+## What is DUO?
 
 An ontology based on the consent codes decsription from the Dyke et al. paper at http://dx.doi.org/10.1371/journal.pgen.1005772
 
