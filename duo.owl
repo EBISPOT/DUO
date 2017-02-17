@@ -12,7 +12,7 @@
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/duo.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/duo/releases/2017-01-31/duo.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/duo/releases/2017-02-17/duo.owl"/>
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl"/>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephanie Dyke</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giselle Kerry</dc:contributor>
@@ -44,6 +44,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000118 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000118"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#DUOformat-version -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#DUOformat-version"/>
@@ -53,6 +59,12 @@
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#shorthand -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#shorthand"/>
     
 
 
@@ -132,6 +144,14 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/BFO_0000005 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000005">
+        <rdfs:subClassOf rdf:resource="http://www.geneontology.org/formats/oboInOwl#ObsoleteClass"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/BFO_0000006 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000006">
@@ -174,9 +194,9 @@
 
     <!-- http://purl.obolibrary.org/obo/BFO_0000016 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/BFO_0000016">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000016">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000017"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -440,7 +460,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000005">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000002"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This primary category consent code indicates that use is allowed for health/medical/biomedical purposes, including the study of population origins or ancestry.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This primary category consent code indicates that use is allowed for health/medical/biomedical purposes and other biological research, including the study of population origins or ancestry.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000005</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general research use and clinical care</rdfs:label>
     </owl:Class>
@@ -574,6 +594,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
+        <obo:IAO_0000115>This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000020</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collaboration required</rdfs:label>
     </owl:Class>
@@ -660,6 +681,18 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that use is limited to use within an approved institution.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000028</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">institution-specific restriction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DUO_0000029 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000029">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
+        <obo:IAO_0000115>This requirement indicates that the requestor must return derived/enriched data to the database/resource.</obo:IAO_0000115>
+        <oboInOwl:id>DUO:0000029</oboInOwl:id>
+        <oboInOwl:shorthand>RTN</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">return to database/resource</rdfs:label>
     </owl:Class>
     
 
@@ -804,9 +837,9 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000027 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000030"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -828,9 +861,9 @@
 
     <!-- http://purl.obolibrary.org/obo/IAO_0000030 -->
 
-    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/IAO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000031"/>
-    </rdf:Description>
+    </owl:Class>
     
 
 
@@ -1674,6 +1707,342 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000605 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000605">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000606 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000606">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000607 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000607">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000608 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000608">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000609 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000609">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000610 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000610">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000611 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000611">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000612 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000612">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000613 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000613">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000614 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000614">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000615 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000615">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000616 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000616">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000617 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000617">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000618 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000618">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000619 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000619">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000620 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000620">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000621 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000622 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000622">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000623 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000623">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000624 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000624">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000625 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000625">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000626 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000626">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000627 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000627">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000628 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000628">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000629 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000629">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000630 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000630">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000631 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000631">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000632 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000632">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000633 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000633">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000634 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000634">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000635 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000635">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000636 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000636">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000637 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000637">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000638 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000638">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000639 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000639">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000640 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000640">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000641 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000641">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000642 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000643 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000643">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000300"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000644 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000644">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000645 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000645">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/IAO_0000314"/>
+    </rdf:Description>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000650 -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/IAO_0000650">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0000011"/>
+    </rdf:Description>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/OBI_0000011 -->
 
     <rdf:Description rdf:about="http://purl.obolibrary.org/obo/OBI_0000011">
@@ -1754,30 +2123,6 @@
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">topic:0003</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Topic</rdfs:label>
     </owl:Class>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#Project -->
-
-    <rdf:Description rdf:about="http://usefulinc.com/ns/doap#Project">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#SVNRepository -->
-
-    <rdf:Description rdf:about="http://usefulinc.com/ns/doap#SVNRepository">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </rdf:Description>
-    
-
-
-    <!-- http://usefulinc.com/ns/doap#Version -->
-
-    <rdf:Description rdf:about="http://usefulinc.com/ns/doap#Version">
-        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-    </rdf:Description>
     
 
 
