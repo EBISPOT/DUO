@@ -433,6 +433,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Development of methods, algorithms, software and analytical tools.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">method development</rdfs:label>
     </owl:Class>
     
@@ -442,6 +443,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Research concerning a specific population group; Should be paired with the an ontology term representing this population (e.g., xxx).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">population research</rdfs:label>
     </owl:Class>
     
@@ -451,6 +453,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Research concerning ancestry or population origins.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">ancestry research</rdfs:label>
     </owl:Class>
     
@@ -460,6 +463,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Research concerning specific age categories; Should be paired with the an ontology term representing this population (e.g., xxx).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">age category research</rdfs:label>
     </owl:Class>
     
@@ -469,6 +473,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Research concerning specific gender categories; Should be paired with the an ontology term representing this population (e.g., xxx).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">gender category research</rdfs:label>
     </owl:Class>
     
@@ -478,6 +483,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Use of data as reference or control material.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">research control</rdfs:label>
     </owl:Class>
     
@@ -487,6 +493,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
+        <obo:IAO_0000115 xml:lang="en">Health/medical/biomedical research.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">biomedical research</rdfs:label>
     </owl:Class>
     
@@ -496,6 +503,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000037"/>
+        <obo:IAO_0000115 xml:lang="en">Research concerning genetics (i.e., the study of genes, genetic variations and heredity).</obo:IAO_0000115>
         <rdfs:label xml:lang="en">genetic research</rdfs:label>
     </owl:Class>
     
@@ -505,6 +513,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000037"/>
+        <obo:IAO_0000115 xml:lang="en">Research concerning drug development.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">drug development research</rdfs:label>
     </owl:Class>
     
@@ -514,6 +523,7 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000037"/>
+        <obo:IAO_0000115 xml:lang="en">Research concerning specific disease/s.</obo:IAO_0000115>
         <rdfs:label xml:lang="en">disease category research</rdfs:label>
     </owl:Class>
     
