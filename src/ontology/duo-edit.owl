@@ -35,6 +35,12 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/IAO_0000112 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000112"/>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
 
     <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115">
@@ -444,6 +450,11 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000030">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
+        <obo:IAO_0000112 xml:lang="en">This includes but is not limited to: health/medical/biomedical purposes, fundamental biology research, the study of population origins or ancestry, statistical methods and algorithms development, and social-sciences research.</obo:IAO_0000112>
+        <obo:IAO_0000115 xml:lang="en">A process of using data in research for a specific purpose.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Suggeest using OBI &apos;investigation&apos;  (http://purl.obolibrary.org/obo/OBI_0000066)</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000030</oboInOwl:id>
         <rdfs:label xml:lang="en">general research</rdfs:label>
     </owl:Class>
     
@@ -453,7 +464,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000031">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Development of methods, algorithms, software and analytical tools.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">General research concerning development of methods, algorithms, software or analytical tools.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000031</oboInOwl:id>
         <rdfs:label xml:lang="en">method development</rdfs:label>
     </owl:Class>
     
@@ -463,7 +476,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000032">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Research concerning a specific population group; Should be paired with the an ontology term representing this population (e.g., xxx).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">General research concerning a specific population group.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Should be paired with the an ontology term representing this population (e.g., xxx).</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000032</oboInOwl:id>
         <rdfs:label xml:lang="en">population research</rdfs:label>
     </owl:Class>
     
@@ -473,7 +489,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000033">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Research concerning ancestry or population origins.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">General research concerning ancestry or population origins.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000033</oboInOwl:id>
         <rdfs:label xml:lang="en">ancestry research</rdfs:label>
     </owl:Class>
     
@@ -483,7 +501,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000034">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Research concerning specific age categories; Should be paired with the an ontology term representing this population (e.g., xxx).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">General research concerning specific age categories.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Should be paired with the an ontology term representing this population (e.g., xxx).</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000034</oboInOwl:id>
         <rdfs:label xml:lang="en">age category research</rdfs:label>
     </owl:Class>
     
@@ -493,7 +514,10 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000035">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Research concerning specific gender categories; Should be paired with the an ontology term representing this population (e.g., xxx).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">General research concerning specific gender categories.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">Should be paired with the an ontology term representing this population (e.g., xxx).</obo:IAO_0000232>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000035</oboInOwl:id>
         <rdfs:label xml:lang="en">gender category research</rdfs:label>
     </owl:Class>
     
@@ -504,6 +528,8 @@
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000036">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
         <obo:IAO_0000115 xml:lang="en">Use of data as reference or control material.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000036</oboInOwl:id>
         <rdfs:label xml:lang="en">research control</rdfs:label>
     </owl:Class>
     
@@ -513,7 +539,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000037">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000030"/>
-        <obo:IAO_0000115 xml:lang="en">Health/medical/biomedical research.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">General research concerning health, medical, or biomedical research.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000037</oboInOwl:id>
         <rdfs:label xml:lang="en">biomedical research</rdfs:label>
     </owl:Class>
     
@@ -523,7 +551,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000038">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000037"/>
-        <obo:IAO_0000115 xml:lang="en">Research concerning genetics (i.e., the study of genes, genetic variations and heredity).</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">General research concerning genetics (i.e., the study of genes, genetic variations and heredity).</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000038</oboInOwl:id>
         <rdfs:label xml:lang="en">genetic research</rdfs:label>
     </owl:Class>
     
@@ -533,7 +563,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000039">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000037"/>
-        <obo:IAO_0000115 xml:lang="en">Research concerning drug development.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">General research concerning drug development.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000039</oboInOwl:id>
         <rdfs:label xml:lang="en">drug development research</rdfs:label>
     </owl:Class>
     
@@ -543,7 +575,9 @@
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000040">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000037"/>
-        <obo:IAO_0000115 xml:lang="en">Research concerning specific disease/s.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">General research concerning specific a disease or diseases.</obo:IAO_0000115>
+        <obo:IAO_0000232 xml:lang="en">This definition is a placeholder as a result of meetings at ICBO2018.</obo:IAO_0000232>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO_0000040</oboInOwl:id>
         <rdfs:label xml:lang="en">disease category research</rdfs:label>
     </owl:Class>
     
