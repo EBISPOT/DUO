@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
-    <uri id="Imports Wizard Entry" name="http://purl.obolibrary.org/obo/iao/2015-02-23/iao.owl" uri="http://purl.obolibrary.org/obo/iao.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/duo/imports/iao_import.owl" uri="imports/iao_import.owl"/>
-    <uri id="User Entered Import Resolution" name="http://purl.obolibrary.org/obo/duo/imports/bfo_import.owl" uri="imports/bfo_import.owl"/>
-    <group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base=""/>
-</catalog>
