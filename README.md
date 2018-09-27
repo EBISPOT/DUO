@@ -110,7 +110,7 @@ The following figure illustrates how DUO terms can be used to represent data use
 ## Automated data access requests
 In the long term, we envision DUO coupled with matching algorithms such as DUOS to empower services that automatically determine if a user’s research purpose is compatible with data use restrictions on datasets and in turn determine whether to give a researcher access to the data. 
 
-###How does querying work when using DUO?
+### How does querying work when using DUO?
 
 How would an algorithm use DUO ontology to match research purposes and data use restrictions? 
 *This is a deep dive into the algorithm’s matching function for those interested, feel free to skip!*
@@ -134,30 +134,30 @@ The image below illustrates an example of matching a query and how studies label
 Examples of queries and results as implemented by the DUOS algorithm
 Provided by David An, Greg Rushton, Andrea Haessly & Moran Cabili
 
-##Research Purpose : Data Use Limitation Matching
+### Research Purpose : Data Use Limitation Matching
 The following table lists the questions presented to a curator when cataloging a dataset in the A repository. For each question, we illustrate how data use ontology codes should be applied to the dataset according to the curator’s choices.
 
 TODO - add table
 
-###Research Purpose to Query
+### Research Purpose to Query
 The following describes queries by research purpose and which datasets with DU restrictions would they match when applying the DUOS search using DUO
 
 TODO - add table
 
-##Versions
+## Versions
 
 The latest version of the ontology is always available at http://purl.obolibrary.org/obo/duo.owl
 DUO is versioned by date, e.g., http://purl.obolibrary.org/obo/duo/releases/2017-10-16/duo.owl. Each release is tagged on Github and a corresponding Permanent URL is created. This ensure versions remain accessible and can be uniquely referred to. 
 We have a strict deprecation policy compliant with the OBO Foundry principles: once created, IDs are never deleted. If changes altering the meaning of a term are required, the term is deprecated and a new one is created, for which a new ID is minted.
 
-##Contributions
+## Contributions
 - Consent codes : Dyke et al. Plos Genetics, 2016 , https://doi.org/10.1371/journal.pgen.1005772
 Stephanie O. M. Dyke ,Anthony A. Philippakis, Jordi Rambla De Argila, Dina N. Paltoo, Erin S. Luetkemeier, Bartha M. Knoppers, Anthony J. Brookes, J. Dylan Spalding,Mark Thompson, Marco Roos,Kym M. Boycott, Michael Brudno, Matthew Hurles, Heidi L. Rehm, Andreas Matern, Marc Fiume,Stephen T. Sherry
 
 - Automated Discovery and Access Materics (ADA-M): Woolley et al. NPJ Genomic Medicine, 2018 , https://www.nature.com/articles/s41525-018-0057-4 
 J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, Gregory Rushton, James G. Hazard, Vagelis Ladas, Colin D. Veal, Spencer J. Gibson, Anne-Marie Tassé, Stephanie O. M. Dyke, Clara Gaff, Adrian Thorogood, Bartha Maria Knoppers, John Wilbanks , Anthony J. Brookes
 
-##Data Use Ontology Workstream (in alphabetical order)
+## Data Use Ontology Workstream (in alphabetical order)
 Tiffany Boughtwood (Australian genomics )
 Moran Cabili (Broad)
 Melanie Courtot (EMBL-EBI)
