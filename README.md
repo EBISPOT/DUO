@@ -18,6 +18,12 @@ Table of Contents
          * [Tagging with ‘data use restrictions/conditions’](#tagging-with-data-use-restrictionsconditions)
          * [Powering dataset discovery queries](#powering-dataset-discovery-queries)
       * [Automated data access requests](#automated-data-access-requests)
+         * [How does querying work when using DUO?](#how-does-querying-work-when-using-duo)
+         * [Research Purpose : Data Use Limitation Matching](#research-purpose--data-use-limitation-matching)
+         * [Research Purpose to Query](#research-purpose-to-query)
+      * [Versions](#versions-1)
+      * [Contributions](#contributions)
+      * [Data Use Ontology Workstream (in alphabetical order)](#data-use-ontology-workstream-in-alphabetical-order)
       
       
 # DUO - the Data Use Ontology - the essentials
