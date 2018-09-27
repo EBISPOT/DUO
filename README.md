@@ -18,9 +18,9 @@ It allows to semantically tag datasets with restriction about their usage, makin
 
 This resource is based on the OBO Foundry principles, and its use is under review by the [European Genome-phenome Archive](https://ega-archive.org) (EGA) at EMBL-EBI as well as the Broad Institute for the [Data Use Oversight System](https://duos.broadinstitute.org/#/home) (DUOS).
 
-Here is a hierarchical view of the DUO:
+%Here is a hierarchical view of the DUO:
 
-![alt tag](https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_hierarchy.png "DUO hierarchy")
+%![alt tag](https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_hierarchy.png "DUO hierarchy")
 
 ## Versions
 
