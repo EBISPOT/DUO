@@ -97,7 +97,7 @@ One such algorithm-based service is the Broad Institute’s Data Use Oversight S
 
 The following figure illustrates how DUO terms can be used to represent data use restrictions on datasets (left) as well as a research purpose query (right) using the DUO ontology terms.  
 
-[alt tag](https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_matching.png "DUO matching"
+[alt tag](https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_matching.png "DUO matching")
 
 ## Automated data access requests
 In the long term, we envision DUO coupled with matching algorithms such as DUOS to empower services that automatically determine if a user’s research purpose is compatible with data use restrictions on datasets and in turn determine whether to give a researcher access to the data.  
