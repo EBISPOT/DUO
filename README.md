@@ -108,23 +108,28 @@ The following figure illustrates how DUO terms can be used to represent data use
 ![alt tag](https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_matching.png "DUO matching")
 
 ## Automated data access requests
-In the long term, we envision DUO coupled with matching algorithms such as DUOS to empower services that automatically determine if a user’s research purpose is compatible with data use restrictions on datasets and in turn determine whether to give a researcher access to the data.  
-How does querying work when using DUO?
-So, how would an algorithm use DUO onotology to match research purposes and data use restrictions? 
-This is a deep dive into the algorithm’s matching function for those interested, feel free to skip!
+In the long term, we envision DUO coupled with matching algorithms such as DUOS to empower services that automatically determine if a user’s research purpose is compatible with data use restrictions on datasets and in turn determine whether to give a researcher access to the data. 
+
+###How does querying work when using DUO?
+
+How would an algorithm use DUO ontology to match research purposes and data use restrictions? 
+*This is a deep dive into the algorithm’s matching function for those interested, feel free to skip!*
  
-The request for a dataset needs to be matched against the existing data use restrictions on stored datasets. These assessments could be run against either 1) the person making the request (e.g., do they belong to a for-profit/non-profit organization?) or 2) their specific research purpose itself (e.g. can I use this dataset for cancer research?)
+The request for a dataset needs to be matched against the existing data use restrictions on stored datasets. These assessments could be run against either 
+1. the person making the request (e.g., do they belong to a for-profit/non-profit organization?) or 
+2. their specific research purpose itself (e.g. can I use this dataset for cancer research?)
 
-When using DUO-powered automated matching systems, its important to note the query is ALWAYS expected to be made and the most specific level. This means that:
+An important aspect of using DUO in automated matching systems is that the query is **ALWAYS** expected to be made at the most specific level. This means that:
 
-An important aspect of using DUO in automated matching systems is that the query is ALWAYS expected to be made at the most specific level. This means that:
-
-A query for datasets consented for cancer research  WILL NOT retrieve datasets consented for lung cancer, because lung cancer is a subtype of cancer in a disease hierarchy and the ontology needs to ensure the datasets will only be used to study specifically lung cancer.
-A query for datasets consented for lung cancer research WILL retrieve datasets consented for cancer, as lung cancer is a subtype of cancer in a disease hierarchy.
+- A query for datasets consented for cancer research **WILL NOT** retrieve datasets consented for lung cancer, because lung cancer is a subtype of cancer in a disease hierarchy and the ontology needs to ensure the datasets will only be used to study specifically lung cancer.
+- A query for datasets consented for lung cancer research **WILL** retrieve datasets consented for cancer, as lung cancer is a subtype of cancer in a disease hierarchy.
 
 The image below illustrates an example of matching a query and how studies labeled with Consent Codes/ Data Use Ontology terms  can be mapped to the data use ontology tree. 
 
-A researcher describes he would like to study Melanoma and find all datasets compatible with this research purpose.  
-A matching algorithm will start by detecting Melanoma research in the ontology hierarchy (dotted circle) and will return every datasets that is labeled with PARENT NODES , going up in the hierarchical ontology tree/ directed acyclic graph. 
+1. A researcher describes he would like to study Melanoma and find all datasets compatible with this research purpose.  
+2. A matching algorithm will start by detecting Melanoma research in the ontology hierarchy (dotted circle) and will return every datasets that is labeled with PARENT NODES, going up in the hierarchical ontology tree/ directed acyclic graph. 
+
+![alt tag](https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_hierarchy_matching.png "DUO hierarchy matching")
+
 
 
