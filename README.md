@@ -3,7 +3,6 @@
 Table of Contents
 =================
 
-   * [Table of Contents](#table-of-contents)
    * [DUO - the Data Use Ontology - the essentials](#duo---the-data-use-ontology---the-essentials)
       * [Availability](#availability)
       * [What is DUO?](#what-is-duo)
