@@ -2,6 +2,18 @@
 
 # DUO - the Data Use Ontology
 
+Table of Contents
+=================
+
+   * [DUO - the Data Use Ontology](#duo---the-data-use-ontology)
+      * [Availability](#availability)
+      * [What is DUO?](#what-is-duo)
+      * [Versions](#versions)
+         * [Stable release versions](#stable-release-versions)
+         * [Editors' version](#editors-version)
+      * [Contact](#contact)
+
+
 ## Availability
 
 The latest version of the ontology can always be found at: http://purl.obolibrary.org/obo/duo.owl
