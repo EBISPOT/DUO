@@ -1,17 +1,26 @@
 [![Build Status](https://travis-ci.org/EBISPOT/DUO.svg?branch=master)](https://travis-ci.org/EBISPOT/DUO)
 
-
-
 Table of Contents
 =================
 
-   * [DUO - the Data Use Ontology](#duo---the-data-use-ontology)
+   * [Table of Contents](#table-of-contents)
+   * [DUO - the Data Use Ontology - the essentials](#duo---the-data-use-ontology---the-essentials)
       * [Availability](#availability)
       * [What is DUO?](#what-is-duo)
       * [Versions](#versions)
          * [Stable release versions](#stable-release-versions)
          * [Editors' version](#editors-version)
       * [Contact](#contact)
+   * [DUO - Full documentation](#duo---full-documentation)
+      * [What is DUO?](#what-is-duo-1)
+      * [How did DUO come about?](#how-did-duo-come-about)
+      * [Evolution of DUO](#evolution-of-duo)
+      * [Examples of use](#examples-of-use)
+         * [Tagging with ‘data use restrictions/conditions’](#tagging-with-data-use-restrictionsconditions)
+         * [Powering dataset discovery queries](#powering-dataset-discovery-queries)
+      * [Automated data access requests](#automated-data-access-requests)
+      
+      
 # DUO - the Data Use Ontology - the essentials
 
 ## Availability
