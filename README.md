@@ -143,12 +143,20 @@ Provided by David An, Greg Rushton, Andrea Haessly & Moran Cabili
 ### Research Purpose : Data Use Limitation Matching
 The following table lists the questions presented to a curator when cataloging a dataset in the A repository. For each question, we illustrate how data use ontology codes should be applied to the dataset according to the curator’s choices.
 
-TODO - add table
+
 
 ### Research Purpose to Query
 The following describes queries by research purpose and which datasets with DU restrictions would they match when applying the DUOS search using DUO
 
-TODO - add table
+| If my Research Purpose has... | Related DUL question in catalog wizard | I should see ... |
+| --- | --- | --- |
+| Disease focused research | Future use is limited to research involving the following disease area(s) [DS] | Any dataset with GRU=true Any dataset with HMB=true. Any dataset tagged to this disease exactly. Any dataset tagged to a DOID ontology Parent of disease X |
+| Methods development/Validation study | Future use for methods research (analytic/software/technology development) outside the bounds of the other specified restrictions is prohibited [NMDS] | Any dataset where NMDS is false Any dataset where NMDS is true AND DS-X match |
+| Control set | Future use as a control set for diseases other than those specified is prohibited [NCTRL] | Any dataset where NCTRL is false and is (GRU or HMB) Any DS-X match, if user specified a disease in the res purpose search |
+| Study population origins or ancestry | Future use is limited to research involving a specific population  [POA] | Any dataset tagged with GRU |
+| Commercial purpose/by a commercial entity | Future commercial use is prohibited [NCU]  Future use by for-profit entities is prohibited [NPU] | Any dataset where NPU and NCU are both false |
+<!-- |  | |  | -->
+
 
 ## Versions
 
