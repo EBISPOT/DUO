@@ -212,4 +212,8 @@ Dylan Spalding (EMBL-EBI, EGA)
 Illia Tulchinski  
 Marcio von Muhlen (HCA/CZI)   
 
+## Other conrtributors (in alphabetical order)
+Neil Otte
+Kathy Reinold
+Cooper Stansbury
 
