@@ -24,6 +24,7 @@ Table of Contents
       * [Versions](#versions-1)
       * [Contributions](#contributions)
       * [Data Use Ontology Workstream (in alphabetical order)](#data-use-ontology-workstream-in-alphabetical-order)
+      * [Other conrtributors (in alphabetical order)](#other-conrtributors-in-alphabetical-order)
       
       
 # DUO - the Data Use Ontology - the essentials
