@@ -143,7 +143,31 @@ Provided by David An, Greg Rushton, Andrea Haessly & Moran Cabili
 ### Research Purpose : Data Use Limitation Matching
 The following table lists the questions presented to a curator when cataloging a dataset in the A repository. For each question, we illustrate how data use ontology codes should be applied to the dataset according to the curator’s choices.
 
-
+| DUL question in catalog wizard | Answer | DUL |
+| --- | --- | --- | 
+| Data is available for future general research use [GRU] (required) | Yes | GRU |
+||No|||
+|Future use is limited for health/medical/biomedical research [HMB] (required)|Yes|HMB|
+||No|||
+|Future use is limited to research involving the following disease area(s) [DS]|Ontology autocomplete|DS={node}|
+|Future commercial use is prohibited [NCU] (required)|Yes|NCU|
+||No|||
+|Future use by for-profit entities is prohibited [NPU] (required)|Yes|NPU|
+||No|||
+|Future use for methods research (analytic/software/technology development) outside the bounds of the other specified restrictions is prohibited [NMDS] (required)|Yes|NMDS|
+||No|||
+|Future use of aggregate-level data for general research purposes is prohibited [NAGR] (required)|Yes|NAGR|
+||No|||
+||Unspecified|||
+|Future use as a control set for diseases other than those specified is prohibited [NCTRL] (required)|Yes|NCTRL|
+||No|||
+|Future use is limited to research involving a particular gender [RS-G] (required)|Male|RS-M|
+||Female|RS-FM||
+||N/A|||
+|Future use is limited to pediatric research [RS-PD] (required)|Yes|RS-PD|
+||No|||
+|Future use is limited to research involving a specific population [RS-POP]|Free text input|RS-POP-XX|
+|Future use is limited to data generated from samples collected after the following consent form date|Date input||
 
 ### Research Purpose to Query
 The following describes queries by research purpose and which datasets with DU restrictions would they match when applying the DUOS search using DUO
