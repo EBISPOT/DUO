@@ -195,30 +195,34 @@ Stephanie O. M. Dyke ,Anthony A. Philippakis, Jordi Rambla De Argila, Dina N. Pa
 J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, Gregory Rushton, James G. Hazard, Vagelis Ladas, Colin D. Veal, Spencer J. Gibson, Anne-Marie Tassé, Stephanie O. M. Dyke, Clara Gaff, Adrian Thorogood, Bartha Maria Knoppers, John Wilbanks , Anthony J. Brookes
 
 ## Data Use Ontology Workstream (in alphabetical order)
+George Alter  
 Tiffany Boughtwood (Australian genomics)  
 Sarion Bowers (Wellcome Sanger Institute)  
-ANthony Brookes
+Anthony Brookes
 Moran Cabili (Broad)  
 Hayley Clissold (Wellcome Sanger Institute)  
 Melanie Courtot (EMBL-EBI)  
 Stacey Donnelly (GA4GH/Broad)  
 Stephanie Dyke (Mc Gill)  
-Francis Jeanson
+Francis Jeanson  
 Gisele Kerry (EMBL-EBI)  
 Melissa Konopko  
 Jonathan Lawson (Broad)  
 Greeshma Neglur (NCI Commons/U chicago)  
 Ravi Pandya  
 Anthony Philippakis (Broad)  
+Greg Rushton  
 Kathy Reinold  
 Laura Rodriguez (NHGRI)  
+Andrea Saltzman (Broad)  
 Dylan Spalding (EMBL-EBI, EGA)  
 Illia Tulchinski  
-Marcio von Muhlen (HCA/CZI)   
+Marcio von Muhlen (HCA/CZI)  
+John Wilbanks  
 
-## Other conrtributors (in alphabetical order)
-ADA-M workstream
-[Consent codes](Consent Codes: Upholding Standard Data Use Conditions) authors
+## Other contributors (in alphabetical order)
+ADA-M workstream  
+[Consent codes](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005772) authors
 Neil Otte    
 Cooper Stansbury  
 
