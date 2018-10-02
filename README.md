@@ -207,7 +207,7 @@ Melissa Konopko
 Jonathan Lawson (Broad)  
 Greeshma Neglur (NCI Commons/U chicago)  
 Ravi Pandya  
-Anthony Philippakis (Broad)
+Anthony Philippakis (Broad)  
 Kathy Reinold  
 Laura Rodriguez (NHGRI)  
 Dylan Spalding (EMBL-EBI, EGA)  
