@@ -196,7 +196,9 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 
 ## Data Use Ontology Workstream (in alphabetical order)
 Tiffany Boughtwood (Australian genomics)  
+Sarion Bowers (Wellcome Sanger Institute)  
 Moran Cabili (Broad)  
+Hayley Clissold (Wellcome Sanger Institute)  
 Melanie Courtot (EMBL-EBI)  
 Stacey Donnelly (GA4GH/Broad)  
 Stephanie Dyke (Mc Gill)   
@@ -205,14 +207,14 @@ Melissa Konopko
 Jonathan Lawson (Broad)  
 Greeshma Neglur (NCI Commons/U chicago)  
 Ravi Pandya  
-Anthony Philippakis (Broad)  
+Anthony Philippakis (Broad)
+Kathy Reinold  
 Laura Rodriguez (NHGRI)  
 Dylan Spalding (EMBL-EBI, EGA)  
 Illia Tulchinski  
 Marcio von Muhlen (HCA/CZI)   
 
 ## Other conrtributors (in alphabetical order)
-Neil Otte
-Kathy Reinold
-Cooper Stansbury
+Neil Otte    
+Cooper Stansbury  
 
