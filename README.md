@@ -197,11 +197,13 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 ## Data Use Ontology Workstream (in alphabetical order)
 Tiffany Boughtwood (Australian genomics)  
 Sarion Bowers (Wellcome Sanger Institute)  
+ANthony Brookes
 Moran Cabili (Broad)  
 Hayley Clissold (Wellcome Sanger Institute)  
 Melanie Courtot (EMBL-EBI)  
 Stacey Donnelly (GA4GH/Broad)  
-Stephanie Dyke (Mc Gill)   
+Stephanie Dyke (Mc Gill)  
+Francis Jeanson
 Gisele Kerry (EMBL-EBI)  
 Melissa Konopko  
 Jonathan Lawson (Broad)  
@@ -215,6 +217,8 @@ Illia Tulchinski
 Marcio von Muhlen (HCA/CZI)   
 
 ## Other conrtributors (in alphabetical order)
+ADA-M workstream
+[Consent codes](Consent Codes: Upholding Standard Data Use Conditions) authors
 Neil Otte    
 Cooper Stansbury  
 
