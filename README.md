@@ -222,7 +222,7 @@ John Wilbanks
 
 ## Other contributors (in alphabetical order)
 ADA-M workstream  
-[Consent codes](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005772) authors
+[Consent codes](https://journals.plos.org/plosgenetics/article?id=10.1371/journal.pgen.1005772) authors   
 Neil Otte    
 Cooper Stansbury  
 
