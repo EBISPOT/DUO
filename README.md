@@ -206,7 +206,8 @@ Stacey Donnelly (GA4GH/Broad)
 Stephanie Dyke (Mc Gill)  
 Francis Jeanson  
 Gisele Kerry (EMBL-EBI)  
-Melissa Konopko  
+Melissa Konopko (Wellcome Sanger Institute)  
+Bartha Maria Knoppers  
 Jonathan Lawson (Broad)  
 Greeshma Neglur (NCI Commons/U chicago)  
 Ravi Pandya  
@@ -216,6 +217,8 @@ Kathy Reinold
 Laura Rodriguez (NHGRI)  
 Andrea Saltzman (Broad)  
 Dylan Spalding (EMBL-EBI, EGA)  
+Anne-Marie Tasse  
+Adrian Thorogood  
 Illia Tulchinski  
 Marcio von Muhlen (HCA/CZI)  
 John Wilbanks  
