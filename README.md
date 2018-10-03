@@ -226,3 +226,6 @@ ADA-M workstream
 Neil Otte    
 Cooper Stansbury  
 
+## Funding
+WellcomeTrust-EBI grant 201535/Z/16Z
+
