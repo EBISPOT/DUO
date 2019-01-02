@@ -106,7 +106,7 @@ DUO is instrumental in supporting services that allow advanced search options by
 
 For example, the query: find all datasets that can be used to study cancer within a commercial entity. Such queries to discover datasets are enabled by algorithms that reason on the ontology’s hierarchical structure to match the query represented by ontology terms with datasets tagged with terms from the same ontology. 
 
-One such algorithm-based service is the Broad Institute’s Data Use Oversight System (DUOS). DUOS is piloting a trial in which a data access committee comprised of experts in data use oversight evaluate data access requests in parallel with the algorithm. This trial leverages the experts’ feedback to improve the algorithm and the ontology and has been contributing to the evolution of DUO.  As an example, here is a description of how the DUOS matching algorithm (and public APIs) work.
+One such algorithm-based service is the Broad Institute’s Data Use Oversight System (DUOS) https://duos.broadinstitute.org/#/home. DUOS is piloting a trial in which a data access committee comprised of experts in data use oversight evaluate data access requests in parallel with the algorithm. This trial leverages the experts’ feedback to improve the algorithm and the ontology and has been contributing to the evolution of DUO.  As an example, here is a description of how the DUOS matching algorithm (and public APIs , see https://api.firecloud.org/#!/Library/duosResearchPurposeQuery) work.
 
 The following figure illustrates how DUO terms can be used to represent data use restrictions on datasets (left) as well as a research purpose query (right) using the DUO ontology terms.  
 
