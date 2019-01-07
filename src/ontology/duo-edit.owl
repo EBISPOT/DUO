@@ -13,7 +13,6 @@
      xmlns:dc="http://purl.org/dc/elements/1.1/">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/duo.owl">
         <owl:imports rdf:resource="http://purl.obolibrary.org/obo/iao.owl"/>
-        <owl:imports rdf:resource="http://purl.obolibrary.org/obo/obi.owl"/>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Stephanie Dyke</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Giselle Kerry</dc:contributor>
         <dc:contributor rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moran Ncabili</dc:contributor>
