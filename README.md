@@ -184,7 +184,9 @@ The following describes queries by research purpose and which datasets with DU r
 ## Versions
 
 The latest version of the ontology is always available at http://purl.obolibrary.org/obo/duo.owl
-DUO is versioned by date, e.g., http://purl.obolibrary.org/obo/duo/releases/2017-10-16/duo.owl. Each release is tagged on Github and a corresponding Permanent URL is created. This ensure versions remain accessible and can be uniquely referred to. 
+DUO is versioned by date, e.g., http://purl.obolibrary.org/obo/duo/releases/2017-10-16/duo.owl. Each release is tagged on Github and a corresponding Permanent URL is created. This ensure versions remain accessible and can be uniquely referred to.
+A list of all releases is avaialble at https://github.com/EBISPOT/DUO/releases/.
+
 We have a strict deprecation policy compliant with the OBO Foundry principles: once created, IDs are never deleted. If changes altering the meaning of a term are required, the term is deprecated and a new one is created, for which a new ID is minted.
 
 ## Contributions
