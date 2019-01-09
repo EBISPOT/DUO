@@ -234,7 +234,7 @@ Neil Otte
 Cooper Stansbury  
 
 ## Funding
-WellcomeTrust-EBI grant 201535/Z/16Z
+Wellcome Trust-EBI grant 201535/Z/16Z
 
 ## DUO logos
 
@@ -244,4 +244,4 @@ DUO logos are available in 2 versions (click for larger versions)
 
 <a href="https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_logo_dark_background.png"><img src="https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_logo_dark_background.png" height="100"></a>
 
-DUO logos were designed by Spemcer Philips, EMBL-EBI.
+DUO logos were designed by Spencer Phillips - EMBL-EBI, 2019.
