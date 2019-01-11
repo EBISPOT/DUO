@@ -87,8 +87,8 @@ The lack of such an ontology is a missed opportunity to guide/inform the writing
 
 DUO represents data use terms from three evolving efforts to standardize data use restrictions in the biomedical and genomics research domain:
 **The NIH’s dbGaP data use categories**. The NIH database of Genotype and Phenotype is one of the largest public repositories of genomics data in the world. While ingesting data to the system depositors are asked to use a controlled vocabulary (see ,  Points to Consider in Drafting Effective Data Use Limitation Statements https://osp.od.nih.gov/wp-content/uploads/NIH_PTC_in_Drafting_DUL_Statements.pdf)  to represent the restrictions for secondary use of the deposited datasets. For example, classify a dataset as General Research Use (GRU), or Health/Medical/Biomedical research only (HMB). This controlled vocabulary was defined in 2011-2012 and has been the foundation for this ontology. There are over 1000 studies labelled with data use restrictions using these terms. Some of the challenge with the way the controlled vocabulary is currently being applied: (1) it doesn’t encode the hierarchy between terms; (2) it was often coupled to free text describing disease types.  Both of these aspects make it difficult for algorithms to make logical inference on this information.  
-**Consent Codes** A global team effort led by Stephanie OM Dyke to define ‘codes’ for specific categories of data use restrictions based on the datasets of the main public genome archives (NCBI dbGaP and EMBL-EBI/CRG EGA). The ‘codes’ extend the controlled vocabulary and classification approach of dbGAP and define a hierarchy and approachable classification rules. Read more here: https://doi.org/10.1371/journal.pgen.1005772
-**The Automated Data Access Matrix (ADA-M)**. A global team effort led by Anthony Brooks and a GA4GH workstream to define a matrix of data use categories that can be used to define both: (a) the data use restrictions on a dataset, and (b) a research purpose. The ADA-M is a complementary approach for classifying data use restrictions and permissions with greater granularity than consent codes and can address an expanded set of use cases. Read more here: Woolley & Brooks et al. NPJ Genomic Medicine, 2018, https://www.nature.com/articles/s41525-018-0057-4 
+**Consent Codes** A global team effort led by Stephanie OM Dyke (McGill University) and the Regulatory and Ethics Work Stream to define ‘codes’ for specific categories of data use restrictions based on the datasets of the main public genome archives (NCBI dbGaP and EMBL-EBI/CRG EGA). The ‘codes’ extend the controlled vocabulary and classification approach of dbGAP and define a hierarchy and approachable classification rules. Read more here: https://doi.org/10.1371/journal.pgen.1005772
+**The Automated Data Access Matrix (ADA-M)**. A global team effort led by Anthony Brookes and a GA4GH workstream to define a matrix of data use categories that can be used to define both: (a) the data use restrictions on a dataset, and (b) a research purpose. The ADA-M is a complementary approach for classifying data use restrictions and permissions with greater granularity than consent codes and can address an expanded set of use cases. Read more here: Woolley & Brooks et al. NPJ Genomic Medicine, 2018, https://www.nature.com/articles/s41525-018-0057-4 
 
 ## Evolution of DUO
 DUO is an evolving effort to provide digital ontological representation for all the data use categories defined by the efforts mentioned above. Its evolution is driven by driver projects of the Global Alliance for Genomics and Health (GA4GH) such as the EMBL-EBI/CRG EGA, the All Of Us research program and the NIH Data Commons Pilot. 
@@ -199,33 +199,33 @@ Stephanie O. M. Dyke ,Anthony A. Philippakis, Jordi Rambla De Argila, Dina N. Pa
 J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, Gregory Rushton, James G. Hazard, Vagelis Ladas, Colin D. Veal, Spencer J. Gibson, Anne-Marie Tassé, Stephanie O. M. Dyke, Clara Gaff, Adrian Thorogood, Bartha Maria Knoppers, John Wilbanks , Anthony J. Brookes
 
 ## Data Use Ontology Workstream (in alphabetical order)
-George Alter  
+George Alter (University of Michigan)
 Tiffany Boughtwood (Australian genomics)  
 Sarion Bowers (Wellcome Sanger Institute)  
-Anthony Brookes
-Moran Cabili (Broad)  
+Anthony Brookes (University of Leicester)
+Moran Cabili (Broad Institute of MIT and Harvard)  
 Hayley Clissold (Wellcome Sanger Institute)  
 Melanie Courtot (EMBL-EBI)  
 Stacey Donnelly (GA4GH/Broad)  
 Stephanie Dyke (Mc Gill)  
-Francis Jeanson  
+Francis Jeanson (IAMOPEN)
 Gisele Kerry (EMBL-EBI)  
 Melissa Konopko (Wellcome Sanger Institute)  
-Bartha Maria Knoppers  
+Bartha Maria Knoppers (McGill University)
 Jonathan Lawson (Broad)  
 Greeshma Neglur (NCI Commons/U chicago)  
-Ravi Pandya  
-Anthony Philippakis (Broad)  
-Greg Rushton  
-Kathy Reinold  
+Ravi Pandya (Microsoft Research)
+Anthony Philippakis (Broad Institute of MIT and Harvard)  
+Greg Rushton (Broad Institute of MIT and Harvard)
+Kathy Reinold (Broad Institute of MIT and Harvard)
 Laura Rodriguez (NHGRI)  
 Andrea Saltzman (Broad)  
 Dylan Spalding (EMBL-EBI, EGA)  
-Anne-Marie Tasse  
-Adrian Thorogood  
-Illia Tulchinski  
+Anne-Marie Tasse (McGill University)
+Adrian Thorogood (McGill University)
+Illia Tulchinski (Google)
 Marcio von Muhlen (HCA/CZI)  
-John Wilbanks  
+John Wilbanks (Sage Bionetworks)
 
 ## Other contributors (in alphabetical order)
 ADA-M workstream  
