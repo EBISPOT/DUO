@@ -43,7 +43,7 @@ It has been registered with the [OBO Foundry](http://obofoundry.org/ontology/duo
 
 DUO allows to semantically tag datasets with restriction about their usage, making them discoverable automatically based on the authorization level of users, or intended usage.
 
-This resource is based on the OBO Foundry principles, and developed using the [W3C Web Ontology Language](https://www.w3.org/OWL/). It is used in production by the [European Genome-phenome Archive](https://ega-archive.org) (EGA) at EMBL-EBI as well as the Broad Institute for the [Data Use Oversight System](https://duos.broadinstitute.org/#/home) (DUOS).
+This resource is based on the [OBO Foundry principles](http://www.obofoundry.org/principles/fp-000-summary.html), and developed using the [W3C Web Ontology Language](https://www.w3.org/OWL/). It is used in production by the [European Genome-phenome Archive](https://ega-archive.org) (EGA) at EMBL-EBI as well as the Broad Institute for the [Data Use Oversight System](https://duos.broadinstitute.org/#/home) (DUOS).
 
 <!---Here is a hierarchical view of the DUO: -->
 <!---![alt tag](https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_hierarchy.png "DUO hierarchy") -->
