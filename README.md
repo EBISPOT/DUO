@@ -111,7 +111,7 @@ DUO is instrumental in supporting services that allow advanced search options by
 
 For example, the query: find all datasets that can be used to study cancer within a commercial entity. Such queries to discover datasets are enabled by algorithms that reason on the ontology’s hierarchical structure to match the query represented by ontology terms with datasets tagged with terms from the same ontology. 
 
-One such algorithm-based service is the Broad Institute’s Data Use Oversight System ([DUOS] (https://duos.broadinstitute.org/#/home). DUOS is piloting a trial in which a data access committee comprised of experts in data use oversight evaluate data access requests in parallel with the algorithm. This trial leverages the experts’ feedback to improve the algorithm and the ontology and has been contributing to the evolution of DUO.  As an example, here is a description of how the DUOS matching algorithm (and public APIs , see https://api.firecloud.org/#!/Library/duosResearchPurposeQuery) work.
+One such algorithm-based service is the Broad Institute’s Data Use Oversight System ([DUOS](https://duos.broadinstitute.org/#/home)). DUOS is piloting a trial in which a data access committee comprised of experts in data use oversight evaluate data access requests in parallel with the algorithm. This trial leverages the experts’ feedback to improve the algorithm and the ontology and has been contributing to the evolution of DUO.  As an example, here is a description of how the DUOS matching algorithm (and public APIs , see https://api.firecloud.org/#!/Library/duosResearchPurposeQuery) work.
 
 The following figure illustrates how DUO terms can be used to represent data use restrictions on datasets (left) as well as a research purpose query (right) using the DUO ontology terms.  
 
@@ -134,7 +134,7 @@ An important aspect of using DUO in automated matching systems is that the query
 - A query for datasets consented for cancer research **WILL NOT** retrieve datasets consented for lung cancer, because lung cancer is a subtype of cancer in a disease hierarchy and the ontology needs to ensure the datasets will only be used to study specifically lung cancer.
 - A query for datasets consented for lung cancer research **WILL** retrieve datasets consented for cancer, as lung cancer is a subtype of cancer in a disease hierarchy.
 
-The image below illustrates an example of matching a query and how studies labeled with Consent Codes/ Data Use Ontology terms  can be mapped to the data use ontology tree. 
+The image below illustrates an example of matching a query and how studies labeled with Data use categories/ Data Use Ontology terms  can be mapped to the data use ontology tree. 
 
 1. A researcher describes he would like to study Melanoma and find all datasets compatible with this research purpose.  
 2. A matching algorithm will start by detecting Melanoma research in the ontology hierarchy (dotted circle) and will return every datasets that is labeled with PARENT NODES, going up in the hierarchical ontology tree/ directed acyclic graph. 
