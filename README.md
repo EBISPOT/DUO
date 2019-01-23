@@ -16,7 +16,7 @@ Table of Contents
       * [Evolution of DUO](#evolution-of-duo)
       * [Examples of use](#examples-of-use)
          * [Tagging with ‘data use restrictions/conditions’](#tagging-with-data-use-restrictionsconditions)
-         * [Powering dataset discovery queries](#powering-dataset-discovery-queries)
+         * [Powering dataset access screening queries](#powering-dataset-access-screening-queries)
       * [Automated data access requests](#automated-data-access-requests)
          * [How does querying work when using DUO?](#how-does-querying-work-when-using-duo)
          * [Research Purpose : Data Use Limitation Matching](#research-purpose--data-use-limitation-matching)
@@ -106,7 +106,7 @@ Please contact DURI@ga4gh.org if you are interested in adopting DUO in your orga
 ### Tagging with ‘data use restrictions/conditions’
 DUO is used by multiple services to tag datasets with data use restriction terms and categories.  For example, the European Genome-phenome Archive (EGA), a service for permanent archiving and sharing of all types of personally identifiable genetic and phenotypic data under controlled access and jointly hosted by European Bioinformatics Institute (EMBL-EBI) and the Centre for Genomic Regulation (CRG), is now supporting the use of DUO to indicate the data use conditions applied to their datasets. The EGA has been working with the Wellcome Trust Sanger Institute to apply DUO to existing datasets, which are now tagged at EGA. To access data at EGA an application is made to the associated Data Access Committee (DAC), which for the Sanger Institute can be accessed via an electronic Data access Mechanism ([eDAM](https://www.sanger.ac.uk/legal/DAA/MasterController)).
   
-### Powering dataset discovery queries
+### Powering dataset access screening queries
 DUO is instrumental in supporting services that allow advanced search options by matching a research purpose to datasets tagged with compatible data use restrictions terms.  
 
 For example, the query: find all datasets that can be used to study cancer within a commercial entity. Such queries to discover datasets are enabled by algorithms that reason on the ontology’s hierarchical structure to match the query represented by ontology terms with datasets tagged with terms from the same ontology. 
