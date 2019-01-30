@@ -69,7 +69,7 @@ Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/d
 ## What is DUO?
 The (GA4GH) Data Use Ontology (DUO) includes terms describing data use conditions, particularly for research data in the health/clinical/biomedical domain. 
 
-Human subjects datasets often have restrictions such as “only available for cancer use” or “only available for the study of pediatric diseases,” deduced from the original participant consent form, which must be respected when sharing and studying these datasets. 
+Human subjects datasets often have restrictions such as “only available for cancer use” or “only available for the study of pediatric diseases,” based on the original participant consent, which must be respected when sharing and studying these datasets. 
 
 A current challenge in sharing such datasets for further research is that unique language is used in each informed consent form to describe the secondary use conditions. 
 The lack of a standard universal system to categorize these conditions makes it difficult for data access committees (DACs) and researchers to interpret the conditions in a consistent, structured way.
