@@ -239,6 +239,7 @@ Cooper Stansbury
 
 ## Funding
 Wellcome Trust-EBI grant 201535/Z/16Z
+
 NIH/NHGRI 5U01HG009454-03
 
 ## DUO logos
