@@ -24,7 +24,7 @@ Table of Contents
       * [Versions](#versions-1)
       * [Contributions](#contributions)
       * [Data Use Ontology Workstream (in alphabetical order)](#data-use-ontology-workstream-in-alphabetical-order)
-      * [Other conrtributors (in alphabetical order)](#other-conrtributors-in-alphabetical-order)
+      * [Other contributors (in alphabetical order)](#other-contributors-in-alphabetical-order)
       * [Funding](#funding)
       * [DUO logos](#duo-logos)
       
@@ -239,6 +239,7 @@ Cooper Stansbury
 
 ## Funding
 Wellcome Trust-EBI grant 201535/Z/16Z
+NIH/NHGRI 5U01HG009454-03
 
 ## DUO logos
 
