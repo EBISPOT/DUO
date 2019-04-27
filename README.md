@@ -202,6 +202,7 @@ Stephanie O. M. Dyke ,Anthony A. Philippakis, Jordi Rambla De Argila, Dina N. Pa
 J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, Gregory Rushton, James G. Hazard, Vagelis Ladas, Colin D. Veal, Spencer J. Gibson, Anne-Marie Tassé, Stephanie O. M. Dyke, Clara Gaff, Adrian Thorogood, Bartha Maria Knoppers, John Wilbanks , Anthony J. Brookes
 
 ## Data Use Ontology Workstream (in alphabetical order)
+- Ayad Aliomer (Optum)
 - George Alter (University of Michigan)
 - Tiffany Boughtwood (Australian genomics)  
 - Sarion Bowers (Wellcome Sanger Institute)  
