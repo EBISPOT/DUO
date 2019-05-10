@@ -13,7 +13,7 @@ test:all
 
 prepare_release: 
 	$(ROBOT)  reason -i $(SRC) -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $(ONT).owl
-	cp $(ONT).owl $(RELEASEDIR) &&\
+	cp $(ONT).owl  $(ONT)-basic.owl $(ONT).csv $(RELEASEDIR) &&\
 	git add $(RELEASEDIR)/*.owl 
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
 	
