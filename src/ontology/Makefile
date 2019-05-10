@@ -3,11 +3,11 @@ ONT=duo
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
-ROBOT= robot
+ROBOT= ../../robot-1.4.0/bin/robot
 OWLTOOLS= owltools
 USECAT= --use-catalog
 
-all: $(ONT).owl
+all: $(ONT).owl $(ONT)-basic.owl $(ONT).csv
 	
 test:all
 
@@ -20,6 +20,12 @@ prepare_release:
 
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
+
+$(ONT)-basic.owl: $(ONT).owl
+	$(ROBOT) merge -i $(ONT).owl filter --term-file root-terms.txt --select "annotations self descendants ontology" annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)-basic.owl -o $@
+
+$(ONT).csv: $(ONT)-basic.owl
+	$(ROBOT) query -i $(ONT)-basic.owl --query make-csv.sparql $(ONT).csv
 
 # remove OBO which doesn't work with IAO and is not needed
 #$(ONT).obo: $(ONT).owl
