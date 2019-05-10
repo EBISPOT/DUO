@@ -3,7 +3,7 @@ ONT=duo
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
 RELEASEDIR=../..
-ROBOT= ../../robot-1.4.0/bin/robot
+ROBOT= robot
 OWLTOOLS= owltools
 USECAT= --use-catalog
 
@@ -52,5 +52,5 @@ mirror/%.owl: $(SRC)
 	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
 .PRECIOUS: mirror/%.owl
 
-release: $(ONT).owl #$(ONT).obo
+release: $(ONT).owl $(ONT)-basic.owl $(ONT).csv #$(ONT).obo
 	cp $^ $RELEASEDIR
