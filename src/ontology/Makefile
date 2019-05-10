@@ -52,5 +52,5 @@ mirror/%.owl: $(SRC)
 	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
 .PRECIOUS: mirror/%.owl
 
-release: $(ONT).owl $(ONT)-basic.owl $(ONT).csv #$(ONT).obo
-	cp $^ $RELEASEDIR
+release: $(ONT).owl $(ONT)-basic.owl $(ONT).csv 
+	cp $^ $(RELEASEDIR)
