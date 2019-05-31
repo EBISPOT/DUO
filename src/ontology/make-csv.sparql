@@ -1,7 +1,8 @@
 PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#> 
-SELECT ?id ?label ?description 
+SELECT ?id ?label ?description ?shorthand
 WHERE {
    ?term rdfs:label ?label ;
    	  <http://purl.obolibrary.org/obo/IAO_0000115> ?description ; 
-	  <http://www.geneontology.org/formats/oboInOwl#id> ?id
+	  <http://www.geneontology.org/formats/oboInOwl#id> ?id;
+	  <http://www.geneontology.org/formats/oboInOwl#shorthand> ?shorthand
 }
