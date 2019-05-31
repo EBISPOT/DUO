@@ -11,7 +11,7 @@ all: $(ONT).owl $(ONT)-basic.owl $(ONT).csv
 	
 test:all
 
-prepare_release: 
+prepare-release: 
 	$(ROBOT)  reason -i $(SRC) -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $(ONT).owl
 	cp $(ONT).owl  $(ONT)-basic.owl $(ONT).csv $(RELEASEDIR) &&\
 	git add $(RELEASEDIR)/*.owl 
