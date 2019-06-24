@@ -10,7 +10,7 @@ Table of Contents
          * [Stable release versions](#stable-release-versions)
          * [Editors' version](#editors-version)
       * [Contact](#contact)
-      * [DUO users](#duo-users)
+      * [DUO users](#duo---users)
    * [DUO - Full documentation](#duo---full-documentation)
       * [What is DUO?](#what-is-duo-1)
       * [How did DUO come about?](#how-did-duo-come-about)
