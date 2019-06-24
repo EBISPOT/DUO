@@ -10,6 +10,7 @@ Table of Contents
          * [Stable release versions](#stable-release-versions)
          * [Editors' version](#editors-version)
       * [Contact](#contact)
+      * [DUO users](#duo-users)
    * [DUO - Full documentation](#duo---full-documentation)
       * [What is DUO?](#what-is-duo-1)
       * [How did DUO come about?](#how-did-duo-come-about)
@@ -64,6 +65,12 @@ Editors of this ontology should use the edit version, [src/ontology/duo-edit.owl
 ## Contact
 Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/duo/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
+## DUO - users
+Several projects have now implemented DUO in production pipelines:
+- the Broad Institute’s Data Use Oversight System, [DUOS](https://duos.broadinstitute.org/#/home)
+- the European Genome-phenome Archive (EGA). See [here](https://ega-archive.org/datasets/EGAD00001000002)for example.
+- the Data Information System, [DAISY](https://elixir-luxembourg.org/data-information-system-daisy) 
+  
 # DUO - Full documentation
 
 ## What is DUO?
