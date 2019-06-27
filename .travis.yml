@@ -2,7 +2,7 @@
 ## Go to: https://travis-ci.org/EBISPOT for details
 language: java
 jdk:
-  - oraclejdk8
+  - openjdk8
 
 before_script:
   - mkdir -p bin
