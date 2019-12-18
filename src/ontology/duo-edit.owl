@@ -147,7 +147,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no restriction</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This consent code primary category indicates there is no restriction on use.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000004</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NRES</oboInOwl:shorthand>
+        <oboInOwl:shorthand>NRES</oboInOwl:shorthand>
         <rdfs:comment>20180907, Meeting Moran Melanie: This is to be thought about more carefully - what is the intent when using &apos;no restriction&apos; as usually users still need to be researchers.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note: the NRES alternative term may be confusing as in the UK it also stands for National Research Ethics Service</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">no restriction</rdfs:label>
@@ -162,7 +162,7 @@
         <obo:DUO_0000041>general research use and clinical care</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This primary category consent code indicates that use is allowed for health/medical/biomedical purposes and other biological research, including the study of population origins or ancestry.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000005</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRU-CC</oboInOwl:shorthand>
+        <oboInOwl:shorthand>GRU-CC</oboInOwl:shorthand>
         <rdfs:label>general research use and clinical care</rdfs:label>
     </owl:Class>
     
@@ -175,7 +175,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health/medical/biomedical research</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This primary category consent code indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000006</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMB</oboInOwl:shorthand>
+        <oboInOwl:shorthand>HMB</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">health or medical or biomedical research</rdfs:label>
     </owl:Class>
     
@@ -194,7 +194,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease-specific research</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This primary category consent code indicates that use is allowed provided it is related to the specified disease.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000007</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS</oboInOwl:shorthand>
+        <oboInOwl:shorthand>DS</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This term should be coupled with a term describing a disease from an ontology, such as the Disease Ontology, HPO, MonDO to specify the disease the restriction applies to.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">disease specific research</rdfs:label>
     </owl:Class>
@@ -209,7 +209,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This primary category consent code indicates that use of the data is limited to the study of population origins or ancestry.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">population origins/ancestry research</obo:IAO_0000118>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000011</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POA</oboInOwl:shorthand>
+        <oboInOwl:shorthand>POA</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">population origins or ancestry research</rdfs:label>
     </owl:Class>
     
@@ -228,7 +228,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research-specific restrictions</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This secondary category consent code indicates that use is limited to studies of a certain research type.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000012</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RS</oboInOwl:shorthand>
+        <oboInOwl:shorthand>RS</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research specific restrictions</rdfs:label>
     </owl:Class>
     
@@ -241,7 +241,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research use only</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This secondary category consent code indicates that use is limited to research purposes (e.g., does not include its use in clinical care).</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000014</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RU</oboInOwl:shorthand>
+        <oboInOwl:shorthand>RU</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">research use only</rdfs:label>
     </owl:Class>
     
@@ -266,7 +266,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic studies only</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This secondary category consent code indicates that use is limited to genetic studies only (i.e., no phenotype-only research)</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000016</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSO</oboInOwl:shorthand>
+        <oboInOwl:shorthand>GSO</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">genetic studies only</rdfs:label>
     </owl:Class>
     
@@ -292,7 +292,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">non-commercial use</obo:IAO_0000118>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000018</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">NPU</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">NPU</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">not for profit use only</rdfs:label>
     </owl:Class>
     
@@ -305,7 +305,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication required</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000019</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">PUB</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">PUB</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication required</rdfs:label>
     </owl:Class>
     
@@ -318,7 +318,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collaboration required</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000020</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">COL</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">COL</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This could be coupled with a string describing the primary study investigator(s).</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">collaboration required</rdfs:label>
     </owl:Class>
@@ -332,7 +332,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethics approval required</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000021</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">IRB</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">IRB</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ethics approval required</rdfs:label>
     </owl:Class>
     
@@ -351,7 +351,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographical restriction</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that use is limited to within a specific geographic region.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000022</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">GS</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">GS</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This should be coupled with an ontology term describing the geographical location the restriction applies to.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">geographical restriction</rdfs:label>
     </owl:Class>
@@ -366,7 +366,7 @@
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that requestor agrees not to publish results of studies until a specific date</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication embargo</obo:IAO_0000118>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000024</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">MOR</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">MOR</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This should be coupled with a date specified as ISO8601</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">publication moratorium</rdfs:label>
     </owl:Class>
@@ -380,7 +380,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time limit on use</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that use is approved for a specific number of months.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000025</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">TS</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">TS</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This should be coupled with an integer value indicating the number of months.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">time limit on use</rdfs:label>
     </owl:Class>
@@ -394,7 +394,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">user-specific restriction</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that use is limited to use by approved users.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000026</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">US</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">US</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">user specific restriction</rdfs:label>
     </owl:Class>
     
@@ -407,7 +407,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project-specific restriction</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that use is limited to use within an approved project.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000027</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">PS</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">PS</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">project specific restriction</rdfs:label>
     </owl:Class>
     
@@ -420,7 +420,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">institution-specific restriction</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This requirement indicates that use is limited to use within an approved institution.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000028</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string" xml:lang="en">IS</oboInOwl:shorthand>
+        <oboInOwl:shorthand xml:lang="en">IS</oboInOwl:shorthand>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">institution specific restriction</rdfs:label>
     </owl:Class>
     
@@ -579,7 +579,7 @@
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general research use</obo:DUO_0000041>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This primary category consent code indicates that use is allowed for general research use for any research purpose.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000042</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRU</oboInOwl:shorthand>
+        <oboInOwl:shorthand>GRU</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This includes but is not limited to: health/medical/biomedical purposes, fundamental biology research, the study of population origins or ancestry, statistical methods and algorithms development, and social-sciences research.</rdfs:comment>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general research use</rdfs:label>
     </owl:Class>
