@@ -583,7 +583,7 @@ This is better done by Schemablocks and constraining the pattern of usage of DUO
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
         <obo:DUO_0000041 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">general research use</obo:DUO_0000041>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This primary category consent code indicates that use is allowed for general research use for any research purpose.</obo:IAO_0000115>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This data use limitation indicates that use is allowed for general research use for any research purpose.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000042</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRU</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This includes but is not limited to: health/medical/biomedical purposes, fundamental biology research, the study of population origins or ancestry, statistical methods and algorithms development, and social-sciences research.</rdfs:comment>
