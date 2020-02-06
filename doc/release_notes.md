@@ -12,7 +12,7 @@ This release addresses several outstanding tickets:
 
 
 Minnor fixes
-- Addition of xsd:dtaatype to text field, as per https://github.com/EBISPOT/DUO/issues/33. Reported and fixed by @haoyuanli
+- Addition of xsd:datatype to text field, as per https://github.com/EBISPOT/DUO/issues/33. Reported and fixed by @haoyuanli
 - Consistency of ID annotation properties, as per https://github.com/EBISPOT/DUO/issues/32. Reported by @haoyuanli
 - typo has been ported back to IAO, https://github.com/EBISPOT/DUO/issues/24
 
