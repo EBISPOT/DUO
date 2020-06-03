@@ -69,7 +69,7 @@ Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/d
 Several projects have now implemented DUO in production pipelines:
 - the Broad Institute’s Data Use Oversight System, [DUOS](https://duos.broadinstitute.org/#/home)
 - the European Genome-phenome Archive (EGA). See [here](https://ega-archive.org/datasets/EGAD00001000002) for example.
-- the Data Information System, [DAISY](https://elixir-luxembourg.org/data-information-system-daisy) 
+- the Data Information System, [DAISY](https://github.com/elixir-luxembourg/daisy) 
 
 [Contact](#contact) us to tell us about your implementation!
   
