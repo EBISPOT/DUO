@@ -7,10 +7,11 @@ jdk:
 before_script:
   - mkdir -p bin
   - export PATH=$PATH:$PWD/bin
-  - wget http://build.berkeleybop.org/userContent/owltools/owltools -O bin/owltools
-  - wget http://build.berkeleybop.org/userContent/owltools/ontology-release-runner -O bin/ontology-release-runner
-  - wget http://build.berkeleybop.org/userContent/owltools/owltools-runner-all.jar -O bin/owltools-runner-all.jar
-  - wget http://build.berkeleybop.org/userContent/owltools/owltools-oort-all.jar -O bin/owltools-oort-all.jar
+  - export OWLTOOLS=2020-04-06
+  - wget https://github.com/owlcollab/owltools/releases/download/${OWLTOOLS}/owltools -O bin/owltools
+  - wget https://github.com/owlcollab/owltools/releases/download/${OWLTOOLS}/ontology-release-runner -O bin/ontology-release-runner
+  - wget https://github.com/owlcollab/owltools/releases/download/${OWLTOOLS}/owltools-runner-all.jar -O bin/owltools-runner-all.jar
+  - wget https://github.com/owlcollab/owltools/releases/download/${OWLTOOLS}/owltools-oort-all.jar -O bin/owltools-oort-all.jar
   - wget https://raw.githubusercontent.com/ontodev/robot/master/bin/robot -O bin/robot
   - wget https://github.com/ontodev/robot/releases/download/v1.2.0/robot.jar -O bin/robot.jar
   - wget --no-check-certificate https://raw.githubusercontent.com/cmungall/pattern2owl/master/apply-pattern.py -O bin/apply-pattern.py
