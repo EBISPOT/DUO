@@ -243,6 +243,7 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Illia Tulchinski (Google)
 - Marcio von Muhlen (HCA/CZI)  
 - John Wilbanks (Sage Bionetworks)
+- Pinar Alper (Luxembourg Centre for Systems Biomedicine)
 
 ## Other contributors (in alphabetical order)
 ADA-M workstream  
