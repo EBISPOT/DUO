@@ -212,6 +212,7 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 
 ## Data Use Ontology Workstream (in alphabetical order)
 - Ayad Aliomer (Optum)
+- Pinar Alper (Luxembourg Centre for Systems Biomedicine)
 - George Alter (University of Michigan)
 - Tiffany Boughtwood (Australian genomics)  
 - Sarion Bowers (Wellcome Sanger Institute)  
