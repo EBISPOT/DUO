@@ -236,6 +236,7 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Kathy Reinold (Broad Institute of MIT and Harvard)
 - Laura Rodriguez (NHGRI)  
 - Andrea Saltzman (Broad)  
+- Amanjeev Sethi (CanDIG, UHN)  
 - Heidi Sofia (NIH)
 - Dylan Spalding (EMBL-EBI, EGA)  
 - Anne-Marie Tasse (McGill University)
