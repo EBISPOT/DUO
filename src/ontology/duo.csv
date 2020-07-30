@@ -1,34 +1,94 @@
 id,shorthand,label,description
+DUO:0000021,IRB,倫理審査承認必須,倫理審査委員会による承認を受けたことが分かる書面を提出する必要があります
+DUO:0000021,IRB,倫理審査承認必須,This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.
+DUO:0000021,IRB,ethics approval required,倫理審査委員会による承認を受けたことが分かる書面を提出する必要があります
 DUO:0000021,IRB,ethics approval required,This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.
 DUO:0000034,,age category research,An investigation concerning specific age categories.
+DUO:0000006,HMB,健康/医療/生物医学研究,集団の起源や祖先研究を含まない健康/医療/生物医学研究での使用が許可されています
+DUO:0000006,HMB,健康/医療/生物医学研究,This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.
+DUO:0000006,HMB,health or medical or biomedical research,集団の起源や祖先研究を含まない健康/医療/生物医学研究での使用が許可されています
 DUO:0000006,HMB,health or medical or biomedical research,This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.
+DUO:0000019,PUB,公開必須,当該データを利用して実施した研究の成果を広く科学コミュニティに共有する必要があります
+DUO:0000019,PUB,公開必須,This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.
+DUO:0000019,PUB,publication required,当該データを利用して実施した研究の成果を広く科学コミュニティに共有する必要があります
 DUO:0000019,PUB,publication required,This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.
+DUO:0000026,US,ユーザの限定,承認されたユーザのみ利用に限定されています
+DUO:0000026,US,ユーザの限定,This requirement indicates that use is limited to use by approved users.
+DUO:0000026,US,user specific restriction,承認されたユーザのみ利用に限定されています
 DUO:0000026,US,user specific restriction,This requirement indicates that use is limited to use by approved users.
 DUO:0000039,,drug development research,Biomedical research concerning drug development.
+DUO:0000020,COL,共同研究必須,当該データ提供者と共同研究することが必須です
+DUO:0000020,COL,共同研究必須,This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).
+DUO:0000020,COL,collaboration required,当該データ提供者と共同研究することが必須です
 DUO:0000020,COL,collaboration required,This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).
 DUO:0000033,,ancestry research,An investigation concerning ancestry or population origins.
+DUO:0000005,GRU-CC,一般研究利用と診療,集団の起源や祖先研究を含む、生物学的研究や健康/医療/生物医学研究での使用が許可されています
+DUO:0000005,GRU-CC,一般研究利用と診療,"This data use limitation indicates that use is allowed for health/medical/biomedical purposes and other biological research, including the study of population origins or ancestry."
+DUO:0000005,GRU-CC,general research use and clinical care,集団の起源や祖先研究を含む、生物学的研究や健康/医療/生物医学研究での使用が許可されています
 DUO:0000005,GRU-CC,general research use and clinical care,"This data use limitation indicates that use is allowed for health/medical/biomedical purposes and other biological research, including the study of population origins or ancestry."
+DUO:0000018,NPU,営利目的利用禁止,非営利団体による非営利目的の、非商用利用のみに限定されています
+DUO:0000018,NPU,営利目的利用禁止,"This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use."
+DUO:0000018,NPU,not for profit use only,非営利団体による非営利目的の、非商用利用のみに限定されています
 DUO:0000018,NPU,not for profit use only,"This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use."
 DUO:0000040,,disease category research,Biomedical research research concerning specific disease/s
+DUO:0000012,RS,特定の研究に限定,特定の種類の研究での利用に限定されています
+DUO:0000012,RS,特定の研究に限定,This data use limitation indicates that use is limited to studies of a certain research type.
+DUO:0000012,RS,research specific restrictions,特定の種類の研究での利用に限定されています
 DUO:0000012,RS,research specific restrictions,This data use limitation indicates that use is limited to studies of a certain research type.
+DUO:0000025,TS,利用期間の限定,特定の月数の間、使用が承認されています
+DUO:0000025,TS,利用期間の限定,This requirement indicates that use is approved for a specific number of months.
+DUO:0000025,TS,time limit on use,特定の月数の間、使用が承認されています
 DUO:0000025,TS,time limit on use,This requirement indicates that use is approved for a specific number of months.
 DUO:0000038,,genetic research,"Biomedical research concerning genetics (i.e., the study of genes, genetic variations and heredity)."
 DUO:0000032,,population research,An investigation concerning a specific population group.
+DUO:0000004,NRES,制限なし,データの利用に何も制限はありません
+DUO:0000004,NRES,制限なし,This data use limitation indicates there is no restriction on use.
+DUO:0000004,NRES,no restriction,データの利用に何も制限はありません
 DUO:0000004,NRES,no restriction,This data use limitation indicates there is no restriction on use.
 DUO:0000017,,data use requirements,Requirements indicate additional conditions set for use.
+DUO:0000011,POA,集団の起源や祖先研究,集団の起源や祖先研究への利用に限定されています
+DUO:0000011,POA,集団の起源や祖先研究,This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.
+DUO:0000011,POA,population origins or ancestry research,集団の起源や祖先研究への利用に限定されています
 DUO:0000011,POA,population origins or ancestry research,This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.
+DUO:0000024,MOR,出版猶予,This requirement indicates that requestor agrees not to publish results of studies until a specific date
+DUO:0000024,MOR,出版猶予,特定の日付まで研究結果を公表しないことに同意します
 DUO:0000024,MOR,publication moratorium,This requirement indicates that requestor agrees not to publish results of studies until a specific date
+DUO:0000024,MOR,publication moratorium,特定の日付まで研究結果を公表しないことに同意します
 DUO:0000037,,biomedical research,"An investigation concerning health, medical, or biomedical research."
 DUO:0000031,,method development,"An investigation concerning development of methods, algorithms, software or analytical tools."
+DUO:0000016,GSO,遺伝学研究限定,遺伝学研究のみの利用に限定されています（表現型のみの研究への利用は禁止）
+DUO:0000016,GSO,遺伝学研究限定,"This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)"
+DUO:0000016,GSO,genetic studies only,遺伝学研究のみの利用に限定されています（表現型のみの研究への利用は禁止）
 DUO:0000016,GSO,genetic studies only,"This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)"
+DUO:0000029,RTN,return to database or resource,当該データを利用して実施した研究の成果（産出したデータ）をデータベースやリソースへ還す（登録する）必要があります
 DUO:0000029,RTN,return to database or resource,This requirement indicates that the requestor must return derived/enriched data to the database/resource.
+DUO:0000029,RTN,DB/リソースへの還元,当該データを利用して実施した研究の成果（産出したデータ）をデータベースやリソースへ還す（登録する）必要があります
+DUO:0000029,RTN,DB/リソースへの還元,This requirement indicates that the requestor must return derived/enriched data to the database/resource.
 DUO:0000036,,research control,An investigation concerning use of data as reference or control material.
 DUO:0000015,,no general methods research,"This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations."
+DUO:0000028,IS,機関の限定,許可された機関での利用に限定されています
+DUO:0000028,IS,機関の限定,This requirement indicates that use is limited to use within an approved institution.
+DUO:0000028,IS,institution specific restriction,許可された機関での利用に限定されています
 DUO:0000028,IS,institution specific restriction,This requirement indicates that use is limited to use within an approved institution.
+DUO:0000022,GS,地域の限定,特定の地理的地域内での利用に限定されています
+DUO:0000022,GS,地域の限定,This requirement indicates that use is limited to within a specific geographic region.
+DUO:0000022,GS,geographical restriction,特定の地理的地域内での利用に限定されています
 DUO:0000022,GS,geographical restriction,This requirement indicates that use is limited to within a specific geographic region.
 DUO:0000035,,gender category research,An investigation concerning specific gender categories.
+DUO:0000007,DS,疾患特異的研究,特定の疾患に関連する場合のみに使用が許可されています
+DUO:0000007,DS,疾患特異的研究,This data use limitation indicates that use is allowed provided it is related to the specified disease.
+DUO:0000007,DS,disease specific research,特定の疾患に関連する場合のみに使用が許可されています
 DUO:0000007,DS,disease specific research,This data use limitation indicates that use is allowed provided it is related to the specified disease.
 DUO:0000001,,data use limitation,"A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used."
+DUO:0000042,GRU,一般研究利用,あらゆる研究への一般研究利用が許可されています
+DUO:0000042,GRU,一般研究利用,This data use limitation indicates that use is allowed for general research use for any research purpose.
+DUO:0000042,GRU,general research use,あらゆる研究への一般研究利用が許可されています
 DUO:0000042,GRU,general research use,This data use limitation indicates that use is allowed for general research use for any research purpose.
+DUO:0000014,RU,研究利用限定,研究目的以外の利用は禁止されています（例：診療目的での利用は禁止）
+DUO:0000014,RU,研究利用限定,"This data use limitation indicates that use is limited to research purposes (e.g., does not include its use in clinical care)."
+DUO:0000014,RU,research use only,研究目的以外の利用は禁止されています（例：診療目的での利用は禁止）
 DUO:0000014,RU,research use only,"This data use limitation indicates that use is limited to research purposes (e.g., does not include its use in clinical care)."
+DUO:0000027,PS,プロジェクトの限定,許可されたプロジェクト内での利用に限定されています
+DUO:0000027,PS,プロジェクトの限定,This requirement indicates that use is limited to use within an approved project.
+DUO:0000027,PS,project specific restriction,許可されたプロジェクト内での利用に限定されています
 DUO:0000027,PS,project specific restriction,This requirement indicates that use is limited to use within an approved project.

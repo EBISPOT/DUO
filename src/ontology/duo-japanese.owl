@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/duo/duo-japanese.owl#"
+     xml:base="http://purl.obolibrary.org/obo/duo/duo-japanese.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/duo/duo-japanese.owl">
+        <dc:contributor xml:lang="en">Chisato Yamasaki</dc:contributor>
+        <dc:contributor xml:lang="en">Soichi Ogishima</dc:contributor>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000004">
+        <rdfs:label xml:lang="ja">制限なし</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">データの利用に何も制限はありません</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000005">
+        <rdfs:label xml:lang="ja">一般研究利用と診療</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">集団の起源や祖先研究を含む、生物学的研究や健康/医療/生物医学研究での使用が許可されています</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000006">
+        <obo:IAO_0000115 xml:lang="ja">集団の起源や祖先研究を含まない健康/医療/生物医学研究での使用が許可されています</obo:IAO_0000115>
+        <rdfs:label xml:lang="ja">健康/医療/生物医学研究</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000007">
+        <rdfs:label xml:lang="ja">疾患特異的研究</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">特定の疾患に関連する場合のみに使用が許可されています</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000011">
+        <obo:IAO_0000115 xml:lang="ja">集団の起源や祖先研究への利用に限定されています</obo:IAO_0000115>
+        <rdfs:label xml:lang="ja">集団の起源や祖先研究</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000012">
+        <rdfs:label xml:lang="ja">特定の研究に限定</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">特定の種類の研究での利用に限定されています</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000014">
+        <obo:IAO_0000115 xml:lang="ja">研究目的以外の利用は禁止されています（例：診療目的での利用は禁止）</obo:IAO_0000115>
+        <rdfs:label xml:lang="ja">研究利用限定</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000016">
+        <obo:IAO_0000115 xml:lang="ja">遺伝学研究のみの利用に限定されています（表現型のみの研究への利用は禁止）</obo:IAO_0000115>
+        <rdfs:label xml:lang="ja">遺伝学研究限定</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000018">
+        <obo:IAO_0000115 xml:lang="ja">非営利団体による非営利目的の、非商用利用のみに限定されています</obo:IAO_0000115>
+        <rdfs:label xml:lang="ja">営利目的利用禁止</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000019">
+        <rdfs:label xml:lang="ja">公開必須</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">当該データを利用して実施した研究の成果を広く科学コミュニティに共有する必要があります</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000020">
+        <obo:IAO_0000115 xml:lang="ja">当該データ提供者と共同研究することが必須です</obo:IAO_0000115>
+        <rdfs:label xml:lang="ja">共同研究必須</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000021">
+        <rdfs:label xml:lang="ja">倫理審査承認必須</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">倫理審査委員会による承認を受けたことが分かる書面を提出する必要があります</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000022">
+        <rdfs:label xml:lang="ja">地域の限定</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">特定の地理的地域内での利用に限定されています</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000024">
+        <rdfs:label xml:lang="ja">出版猶予</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">特定の日付まで研究結果を公表しないことに同意します</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000025">
+        <obo:IAO_0000115 xml:lang="ja">特定の月数の間、使用が承認されています</obo:IAO_0000115>
+        <rdfs:label xml:lang="ja">利用期間の限定</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000026">
+        <rdfs:label xml:lang="ja">ユーザの限定</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">承認されたユーザのみ利用に限定されています</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000027">
+        <rdfs:label xml:lang="ja">プロジェクトの限定</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">許可されたプロジェクト内での利用に限定されています</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000028">
+        <rdfs:label xml:lang="ja">機関の限定</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">許可された機関での利用に限定されています</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000029">
+        <rdfs:label xml:lang="ja">DB/リソースへの還元</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">当該データを利用して実施した研究の成果（産出したデータ）をデータベースやリソースへ還す（登録する）必要があります</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000042">
+        <rdfs:label xml:lang="ja">一般研究利用</rdfs:label>
+        <obo:IAO_0000115 xml:lang="ja">あらゆる研究への一般研究利用が許可されています</obo:IAO_0000115>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
