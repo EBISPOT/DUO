@@ -229,6 +229,7 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Bartha Maria Knoppers (McGill University)
 - Jonathan Lawson (Broad)  
 - Greeshma Neglur (NCI Commons/U chicago)  
+- Soichi Ogishima (ToMMo, GEM Japan)
 - Laura Paglione (Spherical Cow)
 - Ravi Pandya (Microsoft Research)
 - Anthony Philippakis (Broad Institute of MIT and Harvard) 
@@ -245,7 +246,6 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Illia Tulchinski (Google)
 - Marcio von Muhlen (HCA/CZI)  
 - John Wilbanks (Sage Bionetworks)
-- Soichi Ogishima (ToMMo, GEM Japan)
 - Chisato Yamasaki (Osaka Univ., GEM Japan)
 
 ## Other contributors (in alphabetical order)
