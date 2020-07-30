@@ -8,17 +8,17 @@ ROBOT= robot
 OWLTOOLS= owltools
 USECAT= --use-catalog
 
-all: $(ONT).owl $(ONT)-basic.owl $(ONT).csv 
+all: $(ONT).owl $(ONT)-basic.owl $(ONT).csv $(ONT)-japanese.csv
 	
 test:all
 
 
 prepare-release-local: 
-	cp $(ONT).owl  $(ONT)-basic.owl $(ONT).csv  $(RELEASEDIR) &&\
+	cp $(ONT).owl  $(ONT)-basic.owl $(ONT).csv  $(ONT)-japanese.csv $(RELEASEDIR) &&\
 	echo "Release files are now in $(RELEASEDIR) - please check locally. Nothing has been added to GH yet."
 
 prepare-release: 
-	cp $(ONT).owl  $(ONT)-basic.owl $(ONT).csv  $(RELEASEDIR) &&\
+	cp $(ONT).owl  $(ONT)-basic.owl $(ONT).csv $(ONT)-japanese.csv $(RELEASEDIR) &&\
 	git add $(RELEASEDIR)/*.owl 
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"	
 
@@ -33,6 +33,9 @@ $(ONT)-basic.owl: $(ONT).owl root-terms.txt
 
 $(ONT).csv: $(ONT)-basic.owl make-csv.sparql
 	$(ROBOT) query -i $(ONT)-basic.owl --query make-csv.sparql $(ONT).csv
+
+$(ONT)-japanese.csv: $(ONT)-basic.owl make-csv-japanese.sparql
+	$(ROBOT) query -i $(ONT)-basic.owl --query make-csv-japanese.sparql $(ONT)-japanese.csv
 
 # remove OBO which doesn't work with IAO and is not needed
 #$(ONT).obo: $(ONT).owl
