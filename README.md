@@ -212,6 +212,7 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 
 ## Data Use Ontology Workstream (in alphabetical order)
 - Ayad Aliomer (Optum)
+- Pinar Alper (Luxembourg Centre for Systems Biomedicine)
 - George Alter (University of Michigan)
 - Tiffany Boughtwood (Australian genomics)  
 - Sarion Bowers (Wellcome Sanger Institute)  
@@ -228,6 +229,7 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Bartha Maria Knoppers (McGill University)
 - Jonathan Lawson (Broad)  
 - Greeshma Neglur (NCI Commons/U chicago)  
+- Soichi Ogishima (ToMMo, GEM Japan)
 - Laura Paglione (Spherical Cow)
 - Ravi Pandya (Microsoft Research)
 - Anthony Philippakis (Broad Institute of MIT and Harvard) 
@@ -236,6 +238,7 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Kathy Reinold (Broad Institute of MIT and Harvard)
 - Laura Rodriguez (NHGRI)  
 - Andrea Saltzman (Broad)  
+- Amanjeev Sethi (CanDIG, UHN)  
 - Heidi Sofia (NIH)
 - Dylan Spalding (EMBL-EBI, EGA)  
 - Anne-Marie Tasse (McGill University)
@@ -243,6 +246,7 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Illia Tulchinski (Google)
 - Marcio von Muhlen (HCA/CZI)  
 - John Wilbanks (Sage Bionetworks)
+- Chisato Yamasaki (Osaka Univ., GEM Japan)
 
 ## Other contributors (in alphabetical order)
 ADA-M workstream  
