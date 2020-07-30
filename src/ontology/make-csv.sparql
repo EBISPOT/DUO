@@ -5,5 +5,7 @@ WHERE {
    ?term rdfs:label ?label ;
    	  <http://purl.obolibrary.org/obo/IAO_0000115> ?description ; 
 	  <http://www.geneontology.org/formats/oboInOwl#id> ?id;
+	   FILTER (lang(?label) = 'en')
+	   FILTER (lang(?description) = 'en')
 	  OPTIONAL {?term <http://www.geneontology.org/formats/oboInOwl#shorthand> ?shorthand}
 }
