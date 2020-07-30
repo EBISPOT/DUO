@@ -245,6 +245,8 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Illia Tulchinski (Google)
 - Marcio von Muhlen (HCA/CZI)  
 - John Wilbanks (Sage Bionetworks)
+- Soichi Ogishima (ToMMo, GEM Japan)
+- Chisato Yamasaki (Osaka Univ., GEM Japan)
 
 ## Other contributors (in alphabetical order)
 ADA-M workstream  
