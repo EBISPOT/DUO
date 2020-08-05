@@ -40,6 +40,8 @@ DUO can be browsed online via the [Ontology Lookup Service](http://www.ebi.ac.uk
 
 It has been registered with the [OBO Foundry](http://obofoundry.org/ontology/duo.html).
 
+DUO is distribtued under the CC-BY 4.0 licence.
+
 ## What is DUO?
 
 DUO allows to semantically tag datasets with restriction about their usage, making them discoverable automatically based on the authorization level of users, or intended usage.
