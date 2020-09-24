@@ -29,6 +29,7 @@ Table of Contents
       * [Other contributors (in alphabetical order)](#other-contributors-in-alphabetical-order)
       * [Funding](#funding)
       * [DUO logos](#duo-logos)
+      * [DUO Pictograms](#duo-pictograms)
       
       
 # DUO - the Data Use Ontology - the essentials
@@ -276,3 +277,12 @@ DUO logos are available in 2 versions (click for larger versions)
 <a href="https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_logo_dark_background.png"><img src="https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_logo_dark_background.png" height="100"></a>
 
 DUO logos were designed by Spencer Phillips - EMBL-EBI, 2019.
+
+## DUO pictograms
+
+<img src="https://github.com/EBISPOT/DUO/blob/master/doc/figs/pictograms/DUO_overall_pictograms.png">
+
+
+DURI working group of [GEM Japan](https://www.amed.go.jp/en/aboutus/collaboration/ga4gh_gem_japan.html) proposes the DUO pictograms for eight representative DUO codes, as a contribution to GA4GH.  The colors of the pictograms for the five DUO codes for “data limitation” are inspired by the hierarchy of the DUO codes and the colors of the DUO icons.  Those pictograms are originally designed by Akio Nagano ([PENQE](http://penqe.com/)).
+
+DUO pictograms are available in [SVG](https://github.com/EBISPOT/DUO/blob/master/doc/figs/pictograms/duo_svg) or [PNG](https://github.com/EBISPOT/DUO/blob/master/doc/figs/pictograms/duo_png) format.
