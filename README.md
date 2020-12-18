@@ -23,6 +23,7 @@ Table of Contents
          * [How does querying work when using DUO?](#how-does-querying-work-when-using-duo)
          * [Research Purpose : Data Use Limitation Matching](#research-purpose--data-use-limitation-matching)
          * [Research Purpose to Query](#research-purpose-to-query)
+      * [DUO & GDPR] (#the-data-use-ontology-&-the-european-general-data-protection-regulation)
       * [Versions](#versions-1)
       * [Contributions](#contributions)
       * [Data Use Ontology Workstream (in alphabetical order)](#data-use-ontology-workstream-in-alphabetical-order)
@@ -203,7 +204,7 @@ The following describes queries by research purpose and which datasets with DU r
 | Commercial purpose/by a commercial entity | Future commercial use is prohibited [NCU]  Future use by for-profit entities is prohibited [NPU] | Any dataset where NPU and NCU are both false |
 <!-- |  | |  | -->
 
-## The Data Use Ontology (DUO) & The European General Data Protection Regulation
+# The Data Use Ontology & The European General Data Protection Regulation
 ### Can DUO handle data privacy/data protection law compliance?
 - DUO terms describe permitted data use purposes and conditions, mainly focused on research uses of data. These terms are derived from a review of international data sharing practices and ethical principles, and not from a systematic review of applicable legal requirements. 
 - DUO is not validated as a compliance tool for any particular legal framework, such as the European General Data Protection Regulation (GDPR). 
