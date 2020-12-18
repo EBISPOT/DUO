@@ -203,6 +203,17 @@ The following describes queries by research purpose and which datasets with DU r
 | Commercial purpose/by a commercial entity | Future commercial use is prohibited [NCU]  Future use by for-profit entities is prohibited [NPU] | Any dataset where NPU and NCU are both false |
 <!-- |  | |  | -->
 
+## The Data Use Ontology (DUO) & The European General Data Protection Regulation
+### Can DUO handle data privacy/data protection law compliance?
+- DUO terms describe permitted data use purposes and conditions, mainly focused on research uses of data. These terms are derived from a review of international data sharing practices and ethical principles, and not from a systematic review of applicable legal requirements. 
+- DUO is not validated as a compliance tool for any particular legal framework, such as the European General Data Protection Regulation (GDPR). 
+- Organizations implementing DUO to inform decisions to release or re-use data remain fully responsible for ensuring those decisions comply with applicable laws and regulations. 
+- In the future, DUO might be adapted and validated for a particular legal compliance context, or integrated with a data protection compliance ontology.  
+### Is Use of DUO GDPR Compliant?
+- DUO terms describe generic conditions for which a dataset (or other scientific resource) may be used. The terms are not intended to contain any personal data about sequenced individuals or data users (e.g. researchers). It is the responsibility of DUO adopters to ensure DUO is implemented in a manner that respects applicable data privacy laws. 
+### Does the DUO have any relationship with data privacy/data protection law? 
+- DUO terms describe permitted research uses and conditions. DUO terms are similar to the European GDPR concept of “purposes” of processing personal data. For example, data subjects may be permitted to provide their consent for the further processing of their genomic and health-related data for one or more research purposes (e.g., rare disease research). Some DUO terms are also analogous to the GDPR concept of “technical and organizational measures”, such as the condition for research ethics review. However, as mentioned above, DUO terms have not be validated against the GDPR. There are also many other data protection concepts that are not covered by DUO, such as data subjects rights. 
+
 
 ## Versions
 
