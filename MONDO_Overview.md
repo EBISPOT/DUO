@@ -1,3 +1,5 @@
+*Mondo Intro & Advantages*
+
 A short paragraph explaining the benefits of using Mondo and existing collaborations and alignment with other resources and references.
 
 There are many ontologies and terminologies dedicated to covering different corners of the disease space, from cancer to rare diseases to common diseases. Existing sources of disease definitions include the National Cancer Institute Thesaurus (NCIt), the Online Mendelian Inheritance in Man (OMIM), SNOMED CT, ICD, ICD-O, OncoTree, MedGen, Disease Ontology, Experimental Factor Ontology, and numerous others. The Mondo Disease Ontology (https://mondo.monarchinitiative.org/) integrates the wealth of knowledge from these heterogeneous sources, paying special attention to tracking provenance in how it generates mappings between them, and yielding a logically coherent structure that unifies multiple disease resources. A clearer picture about diseases painted through Mondo has also been elemental in spearheading a call for coordinated efforts to more precisely define rare diseases (https://www.nature.com/articles/d41573-019-00180-y).
