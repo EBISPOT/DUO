@@ -33,4 +33,5 @@ The following criteria reflect the philosophy behind DUO and should be considere
 * Efficient use of GA4GH resources: the GA4GH relies on limited professional and volunteer resources to maintain standards. 
 
 **Governance Committee**
+
 In cases where significant numbers of Driver Project representatives and active DU community members disagree on proceeding with change requests, the ultimate decision will rest with the DUO Governance Committee (DUO GC), composed of the DU, RI, and overall DURI leads. The DUO GC is responsible for accurately understanding and adjudicating on the change requests within two weeks of receipt, in order to serve GA4GH Driver Projects and maintain fidelity to the DUO Principles. 
