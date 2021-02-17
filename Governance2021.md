@@ -1,9 +1,11 @@
 **DUO Governance Process**
 
 **A community of practice**
+
 The best way for DUO to actively meet data sharing needs and opportunities is by fostering an active dialogue between the GA4GH and its community of implementers. GA4GH encourages implementers to share their experiences in implementing DUO including  limits encountered, endorsements of its existing terms and structure, and  successful adaptations and extensions. A range of implementers’ experiences may be considered in determining  changes to the DUO. Fostering such a forum for implementers to learn from each other and assist one another in policy and technical approaches to implementing DUO. The DUO community will strive to produce a brief annual report of user feedback and implementations for discussion during GA4GH plenary meetings. 
 
 **Formal change request process**
+
 DUO was developed through years of research, piloting, and community discourse amongst numerous global stakeholders, after which it went through the rigorous GA4GH open standards approval process. DUO accepts formal change requests. Users making formal change requests should provide appropriate justifications and supporting evidence from real-world use cases (see Criteria below). Contributions from the global scientific community (in addition to and beyond GA4GH) are welcome. Change requests should meet a similar standard of assessment and consensus as with the initial version of DUO. 
 
 **Criteria for Change Requests to DUO:**
@@ -19,6 +21,7 @@ DUO was developed through years of research, piloting, and community discourse a
 Attribute via ORCID contributions of the community, such as annotation properties at the term level referring to the submitter etc.
 
 **DUO Principles used to Assess Change Requests::**
+
 The following criteria reflect the philosophy behind DUO and should be considered when considered changes to DUO: 
 
 * Purpose: changes should promote responsible AND effective data sharing (i.e., integration and re-use of scientific resources).
