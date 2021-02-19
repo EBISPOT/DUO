@@ -1,6 +1,4 @@
-[![Build Status](https://travis-ci.org/EBISPOT/DUO.svg?branch=master)](https://travis-ci.org/EBISPOT/DUO)
-
-[![CC BY 4.0][cc-by-shield]][cc-by]
+[![Build Status](https://travis-ci.org/EBISPOT/DUO.svg?branch=master)](https://travis-ci.org/EBISPOT/DUO) [![CC BY 4.0][cc-by-shield]][cc-by]
 
 Table of Contents
 =================
