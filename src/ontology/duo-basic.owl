@@ -9,11 +9,12 @@
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:foaf="http://xmlns.com/foaf/0.1/"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/duo-basic.owl">
-        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/duo/releases/2020-07-30/duo-basic.owl"/>
+        <owl:versionIRI rdf:resource="http://purl.obolibrary.org/obo/duo/releases/2021-02-23/duo-basic.owl"/>
     </owl:Ontology>
     
 
@@ -679,6 +680,18 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     
 
 
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasDbXref -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasDbXref"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
     <!-- http://www.geneontology.org/formats/oboInOwl#id -->
 
     <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#id"/>
@@ -712,6 +725,12 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://www.w3.org/2000/01/rdf-schema#seeAlso -->
 
     <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#seeAlso"/>
+    
+
+
+    <!-- http://www.w3.org/2004/02/skos/core#exactMatch -->
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2004/02/skos/core#exactMatch"/>
     
 
 
@@ -750,7 +769,7 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
         <obo:IAO_0000115 xml:lang="en">A data item that is used to indicate consent permissions for datasets and/or materials, and relates to the purposes for which datasets and/or material might be removed, stored or used.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">consent code</obo:IAO_0000118>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000001</oboInOwl:id>
-        <rdfs:label xml:lang="en">data use limitation</rdfs:label>
+        <rdfs:label xml:lang="en">data use permission</rdfs:label>
     </owl:Class>
     
 
@@ -759,29 +778,24 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000004">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates there is no restriction on use.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">データの利用に何も制限はありません</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use permission indicates there is no restriction on use.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000004</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NRES</oboInOwl:shorthand>
         <rdfs:comment>20180907, Meeting Moran Melanie: This is to be thought about more carefully - what is the intent when using &apos;no restriction&apos; as usually users still need to be researchers.</rdfs:comment>
         <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Note: the NRES alternative term may be confusing as in the UK it also stands for National Research Ethics Service</rdfs:comment>
         <rdfs:label xml:lang="en">no restriction</rdfs:label>
-        <rdfs:label xml:lang="ja">制限なし</rdfs:label>
     </owl:Class>
     
 
 
-    <!-- http://purl.obolibrary.org/obo/DUO_0000005 -->
+    <!-- http://purl.obolibrary.org/obo/DUO_00000044 -->
 
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000005">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000042"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates that use is allowed for health/medical/biomedical purposes and other biological research, including the study of population origins or ancestry.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">集団の起源や祖先研究を含む、生物学的研究や健康/医療/生物医学研究での使用が許可されています</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000005</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRU-CC</oboInOwl:shorthand>
-        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">This term includes clinical care, which was not defined in the original consent codes paper. This term does not have a usage in our current use cases and we recommend using DUO:0000042, General Research Use, instead</rdfs:comment>
-        <rdfs:label xml:lang="en">general research use and clinical care</rdfs:label>
-        <rdfs:label xml:lang="ja">一般研究利用と診療</rdfs:label>
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_00000044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates use for purposes of population, origin, or ancestry research is prohibited.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000044</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPOA</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">population origins or ancestry research prohibited</rdfs:label>
     </owl:Class>
     
 
@@ -790,12 +804,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000006">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000042"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">集団の起源や祖先研究を含まない健康/医療/生物医学研究での使用が許可されています</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use permission indicates that use is allowed for health/medical/biomedical purposes; does not include the study of population origins or ancestry.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000006</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">HMB</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">health or medical or biomedical research</rdfs:label>
-        <rdfs:label xml:lang="ja">健康/医療/生物医学研究</rdfs:label>
     </owl:Class>
     
 
@@ -804,13 +816,15 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000007">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000006"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates that use is allowed provided it is related to the specified disease.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">特定の疾患に関連する場合のみに使用が許可されています</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use permission indicates that use is allowed provided it is related to the specified disease.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000007</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DS</oboInOwl:shorthand>
-        <rdfs:comment xml:lang="en">This term should be coupled with a term describing a disease from an ontology, such as the Disease Ontology, HPO, MonDO to specify the disease the restriction applies to.</rdfs:comment>
+        <rdfs:comment xml:lang="en">This term should be coupled with a term describing a disease from an ontology to specify the disease the restriction applies to. 
+
+DUO recommends MONDO be used, to provide the basis for automated evaluation. For more information see https://github.com/EBISPOT/DUO/blob/master/MONDO_Overview.md
+
+Other resources, such as the Disease Ontology, HPO, SNOMED-CT or others, can also be used. When those other resources are being used, this may require an extra mapping step to leverage automated matching algorithms.</rdfs:comment>
         <rdfs:label xml:lang="en">disease specific research</rdfs:label>
-        <rdfs:label xml:lang="ja">疾患特異的研究</rdfs:label>
     </owl:Class>
     
 
@@ -818,14 +832,12 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/DUO_0000011 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000042"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates that use of the data is limited to the study of population origins or ancestry.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">集団の起源や祖先研究への利用に限定されています</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
+        <obo:IAO_0000115 xml:lang="en">This data use permission indicates that use of the data is limited to the study of population origins or ancestry.</obo:IAO_0000115>
         <obo:IAO_0000118 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">population origins/ancestry research</obo:IAO_0000118>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000011</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">POA</oboInOwl:shorthand>
-        <rdfs:label xml:lang="en">population origins or ancestry research</rdfs:label>
-        <rdfs:label xml:lang="ja">集団の起源や祖先研究</rdfs:label>
+        <rdfs:label xml:lang="en">population origins or ancestry research only</rdfs:label>
     </owl:Class>
     
 
@@ -833,27 +845,11 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/DUO_0000012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000012">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates that use is limited to studies of a certain research type.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">特定の種類の研究での利用に限定されています</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use is limited to studies of a certain research type.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000012</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RS</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">research specific restrictions</rdfs:label>
-        <rdfs:label xml:lang="ja">特定の研究に限定</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/DUO_0000014 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000014">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates that use is limited to research purposes (e.g., does not include its use in clinical care).</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">研究目的以外の利用は禁止されています（例：診療目的での利用は禁止）</obo:IAO_0000115>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000014</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RU</oboInOwl:shorthand>
-        <rdfs:label xml:lang="en">research use only</rdfs:label>
-        <rdfs:label xml:lang="ja">研究利用限定</rdfs:label>
     </owl:Class>
     
 
@@ -861,9 +857,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/DUO_0000015 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000015">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates that use includes methods development research(e.g., development of software or algorithms) only within the bounds of other use limitations.</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use does not allow methods development research (e.g., development of software or algorithms).</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000015</oboInOwl:id>
+        <oboInOwl:shorthand>NMDS</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">no general methods research</rdfs:label>
     </owl:Class>
     
@@ -872,13 +869,11 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/DUO_0000016 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000016">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates that use is limited to genetic studies only (i.e., no phenotype-only research)</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">遺伝学研究のみの利用に限定されています（表現型のみの研究への利用は禁止）</obo:IAO_0000115>
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use is limited to genetic studies only (i.e., studies that include genotype research alone or both genotype and phenotype research, but not phenotype research exclusively)</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000016</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GSO</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">genetic studies only</rdfs:label>
-        <rdfs:label xml:lang="ja">遺伝学研究限定</rdfs:label>
     </owl:Class>
     
 
@@ -886,9 +881,9 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
     <!-- http://purl.obolibrary.org/obo/DUO_0000017 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000017">
-        <obo:IAO_0000115 xml:lang="en">Requirements indicate additional conditions set for use.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">Data use modifiers indicate additional conditions for use.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000017</oboInOwl:id>
-        <rdfs:label xml:lang="en">data use requirements</rdfs:label>
+        <rdfs:label xml:lang="en">data use modifier</rdfs:label>
     </owl:Class>
     
 
@@ -897,13 +892,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000018">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">非営利団体による非営利目的の、非商用利用のみに限定されています</obo:IAO_0000115>
-        <obo:IAO_0000118 xml:lang="en">non-commercial use</obo:IAO_0000118>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use of the data is limited to not-for-profit organizations and not-for-profit use, non-commercial use.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000018</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPU</oboInOwl:shorthand>
-        <rdfs:label xml:lang="en">not for profit use only</rdfs:label>
-        <rdfs:label xml:lang="ja">営利目的利用禁止</rdfs:label>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPUNCU</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">not for profit, non commercial use only</rdfs:label>
     </owl:Class>
     
 
@@ -912,12 +904,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000019">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that requestor agrees to make results of studies using the data available to the larger scientific community.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">当該データを利用して実施した研究の成果を広く科学コミュニティに共有する必要があります</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that requestor agrees to make results of studies using the data available to the larger scientific community.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000019</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PUB</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">publication required</rdfs:label>
-        <rdfs:label xml:lang="ja">公開必須</rdfs:label>
     </owl:Class>
     
 
@@ -926,13 +916,11 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000020">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that the requestor must agree to collaboration with the primary study investigator(s).</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">当該データ提供者と共同研究することが必須です</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that the requestor must agree to collaboration with the primary study investigator(s).</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000020</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">COL</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This could be coupled with a string describing the primary study investigator(s).</rdfs:comment>
         <rdfs:label xml:lang="en">collaboration required</rdfs:label>
-        <rdfs:label xml:lang="ja">共同研究必須</rdfs:label>
     </owl:Class>
     
 
@@ -941,12 +929,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000021">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that the requestor must provide documentation of local IRB/ERB approval.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">倫理審査委員会による承認を受けたことが分かる書面を提出する必要があります</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that the requestor must provide documentation of local IRB/ERB approval.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000021</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IRB</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">ethics approval required</rdfs:label>
-        <rdfs:label xml:lang="ja">倫理審査承認必須</rdfs:label>
     </owl:Class>
     
 
@@ -955,13 +941,11 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000022">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that use is limited to within a specific geographic region.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">特定の地理的地域内での利用に限定されています</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use is limited to within a specific geographic region.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000022</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GS</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This should be coupled with an ontology term describing the geographical location the restriction applies to.</rdfs:comment>
         <rdfs:label xml:lang="en">geographical restriction</rdfs:label>
-        <rdfs:label xml:lang="ja">地域の限定</rdfs:label>
     </owl:Class>
     
 
@@ -970,14 +954,12 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000024">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that requestor agrees not to publish results of studies until a specific date</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">特定の日付まで研究結果を公表しないことに同意します</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that requestor agrees not to publish results of studies until a specific date.</obo:IAO_0000115>
         <obo:IAO_0000118 xml:lang="en">publication embargo</obo:IAO_0000118>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000024</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MOR</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This should be coupled with a date specified as ISO8601</rdfs:comment>
         <rdfs:label xml:lang="en">publication moratorium</rdfs:label>
-        <rdfs:label xml:lang="ja">出版猶予</rdfs:label>
     </owl:Class>
     
 
@@ -986,13 +968,11 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000025">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that use is approved for a specific number of months.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">特定の月数の間、使用が承認されています</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use is approved for a specific number of months.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000025</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TS</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This should be coupled with an integer value indicating the number of months.</rdfs:comment>
         <rdfs:label xml:lang="en">time limit on use</rdfs:label>
-        <rdfs:label xml:lang="ja">利用期間の限定</rdfs:label>
     </owl:Class>
     
 
@@ -1001,12 +981,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000026">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that use is limited to use by approved users.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">承認されたユーザのみ利用に限定されています</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use is limited to use by approved users.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000026</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">US</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">user specific restriction</rdfs:label>
-        <rdfs:label xml:lang="ja">ユーザの限定</rdfs:label>
     </owl:Class>
     
 
@@ -1015,12 +993,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000027">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that use is limited to use within an approved project.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">許可されたプロジェクト内での利用に限定されています</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use is limited to use within an approved project.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000027</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PS</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">project specific restriction</rdfs:label>
-        <rdfs:label xml:lang="ja">プロジェクトの限定</rdfs:label>
     </owl:Class>
     
 
@@ -1029,12 +1005,10 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000028">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that use is limited to use within an approved institution.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">許可された機関での利用に限定されています</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use is limited to use within an approved institution.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000028</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IS</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">institution specific restriction</rdfs:label>
-        <rdfs:label xml:lang="ja">機関の限定</rdfs:label>
     </owl:Class>
     
 
@@ -1043,11 +1017,9 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000029">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This requirement indicates that the requestor must return derived/enriched data to the database/resource.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">当該データを利用して実施した研究の成果（産出したデータ）をデータベースやリソースへ還す（登録する）必要があります</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that the requestor must return derived/enriched data to the database/resource.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000029</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RTN</oboInOwl:shorthand>
-        <rdfs:label xml:lang="ja">DB/リソースへの還元</rdfs:label>
         <rdfs:label xml:lang="en">return to database or resource</rdfs:label>
     </owl:Class>
     
@@ -1190,13 +1162,49 @@ EquivalentTo: xsd:integer[&gt; 2151 , &lt;= 2300]
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000042">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000001"/>
-        <obo:IAO_0000115 xml:lang="en">This data use limitation indicates that use is allowed for general research use for any research purpose.</obo:IAO_0000115>
-        <obo:IAO_0000115 xml:lang="ja">あらゆる研究への一般研究利用が許可されています</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use permission indicates that use is allowed for general research use for any research purpose.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000042</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GRU</oboInOwl:shorthand>
         <rdfs:comment xml:lang="en">This includes but is not limited to: health/medical/biomedical purposes, fundamental biology research, the study of population origins or ancestry, statistical methods and algorithms development, and social-sciences research.</rdfs:comment>
         <rdfs:label xml:lang="en">general research use</rdfs:label>
-        <rdfs:label xml:lang="ja">一般研究利用</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DUO_0000043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use is allowed for clinical use and care.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000043</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CC</oboInOwl:shorthand>
+        <rdfs:comment xml:lang="en">Clinical Care is defined as Health care or services provided at home, in a healthcare facility or hospital. Data may be used for clinical decision making.</rdfs:comment>
+        <rdfs:label xml:lang="en">clinical care use</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DUO_0000045 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000045">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000018"/>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use of the data is limited to not-for-profit organizations.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000045</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPU</oboInOwl:shorthand>
+        <rdfs:label xml:lang="en">not for profit organisation use only</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/DUO_0000046 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_0000046">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000018"/>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates that use of the data is limited to not-for-profit use.</obo:IAO_0000115>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000046</oboInOwl:id>
+        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCU</oboInOwl:shorthand>
+        <rdfs:comment xml:lang="en">This indicates that data can be used by commercial organisations for research purposes, but not commercial purposes.</rdfs:comment>
+        <rdfs:label xml:lang="en">non-commercial use only</rdfs:label>
     </owl:Class>
     
 
