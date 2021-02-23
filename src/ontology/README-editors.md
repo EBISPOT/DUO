@@ -50,9 +50,9 @@ to release:
 
 If this looks good type:
 
-    make prepare-release
+    make prepare_release
 
-This generates derived files such as duo.owl and duo.obo and places
+This generates derived files such as duo.owl and duo.csv and places
 them in the top level (../..). The versionIRI will be added.
 
 Commit and push these files.
