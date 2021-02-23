@@ -165,7 +165,7 @@ This is better done by Schemablocks and constraining the pattern of usage of DUO
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/DUO_00000044">
         <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/DUO_0000017"/>
-        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates use for purposes of population, origin, or ancesty research is prohibited.</obo:IAO_0000115>
+        <obo:IAO_0000115 xml:lang="en">This data use modifier indicates use for purposes of population, origin, or ancestry research is prohibited.</obo:IAO_0000115>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DUO:0000044</oboInOwl:id>
         <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NPOA</oboInOwl:shorthand>
         <rdfs:label xml:lang="en">population origins or ancestry research prohibited</rdfs:label>
