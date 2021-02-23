@@ -2,40 +2,25 @@ OBO=http://purl.obolibrary.org/obo
 ONT=duo
 BASE=$(OBO)/$(ONT)
 SRC=$(ONT)-edit.owl
-MRG=$(ONT)-merged.owl
 RELEASEDIR=../..
 ROBOT= robot
 OWLTOOLS= owltools
 USECAT= --use-catalog
 
-all: $(ONT).owl $(ONT)-basic.owl $(ONT).csv $(ONT)-japanese.csv
+
+all: $(ONT).owl $(ONT)-basic.owl $(ONT).csv
 	
 test:all
 
-
-prepare-release-local: 
-	cp $(ONT).owl  $(ONT)-basic.owl $(ONT).csv  $(ONT)-japanese.csv $(RELEASEDIR) &&\
-	echo "Release files are now in $(RELEASEDIR) - please check locally. Nothing has been added to GH yet."
-
-prepare-release: 
-	cp $(ONT).owl  $(ONT)-basic.owl $(ONT).csv $(ONT)-japanese.csv $(RELEASEDIR) &&\
+prepare_release: 
+	$(ROBOT)  reason -i $(SRC) -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $(ONT).owl
+	cp $(ONT).owl $(RELEASEDIR) &&\
 	git add $(RELEASEDIR)/*.owl 
-	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"	
+	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
+	
 
-$(ONT).owl: 
-	#merges in the japanese translation
-	$(ROBOT) merge -i $(SRC) -i $(ONT)-japanese.owl -o $(ONT).owl
-	#build the owl file
-	$(ROBOT)  reason -i $(ONT).owl -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
-
-$(ONT)-basic.owl: $(ONT).owl root-terms.txt
-	$(ROBOT) merge -i $(ONT).owl filter --term-file root-terms.txt --select "annotations self descendants ontology" annotate --ontology-iri $(BASE)-basic.owl -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)-basic.owl -o $@
-
-$(ONT).csv: $(ONT)-basic.owl make-csv.sparql
-	$(ROBOT) query -i $(ONT)-basic.owl --query make-csv.sparql $(ONT).csv
-
-$(ONT)-japanese.csv: $(ONT)-basic.owl make-csv-japanese.sparql
-	$(ROBOT) query -i $(ONT)-basic.owl --query make-csv-japanese.sparql $(ONT)-japanese.csv
+$(ONT).owl: $(SRC)
+	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 
 # remove OBO which doesn't work with IAO and is not needed
 #$(ONT).obo: $(ONT).owl
@@ -58,9 +43,19 @@ $(ONT)-japanese.csv: $(ONT)-basic.owl make-csv-japanese.sparql
 #	$(OWLTOOLS) $(USECAT) $< -o -f obo $@
 
 # clone remote ontology locally, performing some excision of relations and annotations
-mirror/%.owl: $(MRG)
+
+
+
+$(ONT)-basic.owl: $(ONT).owl root-terms.txt
+	$(ROBOT) merge -i $(ONT).owl filter --term-file root-terms.txt --select "annotations self descendants ontology" annotate --ontology-iri $(BASE)-basic.owl -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT)-basic.owl -o $@
+$(ONT).csv: $(ONT)-basic.owl make-csv.sparql
+	$(ROBOT) query -i $(ONT)-basic.owl --query make-csv.sparql $(ONT).csv
+
+
+
+mirror/%.owl: $(SRC)
 	$(OWLTOOLS) $(OBO)/$*.owl --remove-annotation-assertions -l -s -d --remove-dangling-annotations  -o $@
 .PRECIOUS: mirror/%.owl
 
-release: $(ONT).owl $(ONT)-basic.owl $(ONT).csv 
-	cp $^ $(RELEASEDIR)
+release: $(ONT).owl #$(ONT).obo
+	cp $^ $RELEASEDIR
