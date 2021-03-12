@@ -11,9 +11,9 @@ DUO was developed through years of research, piloting, and community discourse a
 **Criteria for Change Requests to DUO:**
 * Changes and modifications to DUO should be use case driven. 
 * Change requests should include: 
-* a concise description of the use case
-* datasets to which the changes/new terms would apply
-* contact details for a representative of the project requesting the change
+  * a concise description of the use case
+  * datasets to which the changes/new terms would apply
+  * contact details for a representative of the project requesting the change
 
 **When Change Requests are made DUO leadership will:**
 * Changes and requests are to be publicly posted on our GH tracker
