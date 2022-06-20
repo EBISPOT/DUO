@@ -10,6 +10,7 @@ Table of Contents
          * [Stable release versions](#stable-release-versions)
          * [Editors' version](#editors-version)
       * [Contact](#contact)
+      * [DUO users](#duo---users)
    * [DUO - Full documentation](#duo---full-documentation)
       * [What is DUO?](#what-is-duo-1)
       * [How did DUO come about?](#how-did-duo-come-about)
@@ -17,6 +18,7 @@ Table of Contents
       * [Examples of use](#examples-of-use)
          * [Tagging with ‘data use restrictions/conditions’](#tagging-with-data-use-restrictionsconditions)
          * [Powering dataset access screening queries](#powering-dataset-access-screening-queries)
+         * [DUO Webinar](#duo-webinar)
       * [Automated data access requests](#automated-data-access-requests)
          * [How does querying work when using DUO?](#how-does-querying-work-when-using-duo)
          * [Research Purpose : Data Use Limitation Matching](#research-purpose--data-use-limitation-matching)
@@ -64,6 +66,14 @@ Editors of this ontology should use the edit version, [src/ontology/duo-edit.owl
 ## Contact
 Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/duo/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
 
+## DUO - users
+Several projects have now implemented DUO in production pipelines:
+- the Broad Institute’s Data Use Oversight System, [DUOS](https://duos.broadinstitute.org/#/home)
+- the European Genome-phenome Archive (EGA). See [here](https://ega-archive.org/datasets/EGAD00001000002) for example.
+- the Data Information System, [DAISY](https://github.com/elixir-luxembourg/daisy) 
+
+[Contact](#contact) us to tell us about your implementation!
+  
 # DUO - Full documentation
 
 ## What is DUO?
@@ -116,6 +126,11 @@ One such algorithm-based service is the Broad Institute’s Data Use Oversight S
 The following figure illustrates how DUO terms can be used to represent data use restrictions on datasets (left) as well as a research purpose query (right) using the DUO ontology terms.  
 
 ![alt tag](https://github.com/EBISPOT/DUO/blob/master/doc/figs/DUO_matching.png "DUO matching")
+
+### DUO Webinar
+[Watch a webinar here](https://www.youtube.com/watch?v=8ZyU34xpi4M&t=1s) with an explanation of the DUO as well as several global users describing how they integrate it into their systems.
+
+[![](http://img.youtube.com/vi/8ZyU34xpi4M/0.jpg)](http://www.youtube.com/watch?v=8ZyU34xpi4M "")
 
 ## Automated data access requests
 In the long term, we envision DUO coupled with matching algorithms such as DUOS to empower services that automatically determine if a user’s research purpose is compatible with data use restrictions on datasets and in turn determine whether to give a researcher access to the data. 
@@ -212,6 +227,7 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Melanie Courtot (EMBL-EBI)  
 - Stacey Donnelly (GA4GH/Broad)  
 - Stephanie Dyke (Mc Gill)  
+- Melissa Haendel (OHSU)
 - Francis Jeanson (IAMOPEN)
 - Giselle Kerry (EMBL-EBI, EGA)  
 - Melissa Konopko (Wellcome Sanger Institute)  
@@ -220,11 +236,13 @@ J. Patrick Woolley, Emily Kirby, Josh Leslie, Francis Jeanson, Moran N. Cabili, 
 - Greeshma Neglur (NCI Commons/U chicago)  
 - Laura Paglione (Spherical Cow)
 - Ravi Pandya (Microsoft Research)
-- Anthony Philippakis (Broad Institute of MIT and Harvard)  
+- Anthony Philippakis (Broad Institute of MIT and Harvard) 
+- Jordi Rambla (Centre for Genomic Regulation, EGA)
 - Greg Rushton (Broad Institute of MIT and Harvard)
 - Kathy Reinold (Broad Institute of MIT and Harvard)
 - Laura Rodriguez (NHGRI)  
 - Andrea Saltzman (Broad)  
+- Heidi Sofia (NIH)
 - Dylan Spalding (EMBL-EBI, EGA)  
 - Anne-Marie Tasse (McGill University)
 - Adrian Thorogood (McGill University)
