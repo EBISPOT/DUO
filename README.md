@@ -23,7 +23,7 @@ Table of Contents
          * [How does querying work when using DUO?](#how-does-querying-work-when-using-duo)
          * [Research Purpose : Data Use Limitation Matching](#research-purpose--data-use-limitation-matching)
          * [Research Purpose to Query](#research-purpose-to-query)
-      * [DUO & GDPR]
+      * [DUO & GDPR](#the-data-use-ontology--the-european-general-data-protection-regulation)
       * [Versions](#versions-1)
       * [Contributions](#contributions)
       * [Data Use Ontology Workstream (in alphabetical order)](#data-use-ontology-workstream-in-alphabetical-order)
