@@ -1,0 +1,103 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/duo/duo-spanish.owl#"
+     xml:base="http://purl.obolibrary.org/obo/duo/duo-spanish.owl"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/duo/duo-spanish.owl">
+        <dc:contributor xml:lang="en">Jonathan Lawson</dc:contributor>
+        <dc:contributor xml:lang="en">Pablo Daniel Lapunzina</dc:contributor>
+        <dc:contributor xml:lang="en">Aina Jené Cortada</dc:contributor>        
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000004">
+        <rdfs:label xml:lang="es">Sin restricciones</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este permiso de uso de datos indica que no hay restricciones en su uso</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000006">
+        <rdfs:label xml:lang="es">Salud / Médico / Biomédico</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este permiso de uso de datos indica que su uso está permitido con fines de la salud, médicos, y biomédicos; y no incluye la investigación de poblaciones,  orígenes o ancestría</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000007">
+        <rdfs:label xml:lang="es">Específico de enfermedad</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este permiso de uso de datos indica que su uso está permitido en el caso que esté relacionado con la enfermedad especificada</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000011">
+        <rdfs:label xml:lang="es">Poblaciones, Orígenes y Ancestría</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este permiso de uso de datos indica que su uso está limitado a la investigación de poblaciones, orígenes y ancestros</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000015">
+        <rdfs:label xml:lang="es">Prohibido para investigación de métodos generales</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que su uso no está permitido para la investigación en el desarrollo de métodos (por ejemplo, el desarrollo de programas o algoritmos)</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000016">
+        <rdfs:label xml:lang="es">Solo estudios genéticos</rdfs:label>
+		<obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que su uso está limitado solo a estudios genéticos (por ejemplo, estudios que incluyan investigación de genotipos solamente o investigación de genotipos y fenotipos, pero no investigación de fenotipos exclusivamente)</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000018">
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que el uso está limitado a organizaciones sin fines de lucro con propósitos sin fines de lucro</obo:IAO_0000115>
+        <rdfs:label xml:lang="es">Uso por organizaciones sin fines de lucro con propósitos sin fines de lucro</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000019">
+        <rdfs:label xml:lang="es">Publicación requerida</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que el solicitante acepta hacer que los resultados de los estudios sean accesibles para la comunidad científica</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000020">
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que el solicitante tiene que estar de acuerdo con colaborar con los investigadores del estudio primario</obo:IAO_0000115>
+        <rdfs:label xml:lang="es">Colaboración requerida</rdfs:label>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000021">
+        <rdfs:label xml:lang="es">Aprobación ética requerida</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que el solicitante tiene que proporcionar documentación que acredite la aprobación de comité de ética local</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000022">
+        <rdfs:label xml:lang="es">Restricción geográfica</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que el uso de datos está limitado a una región geográfica específica</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000024">
+        <rdfs:label xml:lang="es">Moratoria de Publicación</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que el solicitante acepta no publicar los resultados de los estudios hasta una fecha específica</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000029">
+        <rdfs:label xml:lang="es">Regreso a la base de datos/recurso</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que el solicitante se compromete a devolver los datos derivados/enriquecidos a la base de datos/recurso</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000042">
+        <rdfs:label xml:lang="es">Uso en investigación general</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este permiso de uso de datos indica que su uso está permitido para investigación general para cualquier propósito</obo:IAO_0000115>
+    </rdf:Description>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000043">
+        <rdfs:label xml:lang="es">Uso clínico</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que su uso está permitido sólo para el uso y cuidado clínico</obo:IAO_0000115>
+    </rdf:Description>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000044">
+        <rdfs:label xml:lang="es">Prohibido para investigación de poblaciones, orígenes, o ancestría</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que no permite la investigación de desarrollo de métodos</obo:IAO_0000115>
+    </rdf:Description>
+	<rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000045">
+        <rdfs:label xml:lang="es">Uso solamente por organizaciones sin fines de lucro</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que el uso está limitado al uso por organizaciones sin fines de lucro</obo:IAO_0000115>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://purl.obolibrary.org/obo/DUO_0000046">
+        <rdfs:label xml:lang="es">Uso solamente con propósitos sin fines de lucro</rdfs:label>
+        <obo:IAO_0000115 xml:lang="es">Este modificador de uso de datos indica que el uso está limitado al uso con propósitos sin fines de lucro</obo:IAO_0000115>
+    </rdf:Description>
+</rdf:RDF>
