@@ -9,3 +9,4 @@ WHERE {
 	   FILTER (lang(?description) = 'en')
 	  OPTIONAL {?term <http://www.geneontology.org/formats/oboInOwl#shorthand> ?shorthand}
 }
+ORDER BY ?id

@@ -17,19 +17,19 @@ no_lang: $(ONT).owl $(ONT)-basic.owl $(ONT).csv
 
 test:all
 
-prepare_release: 
+prepare_release:
 	$(ROBOT) reason -i $(SRC) -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $(ONT).owl
 	cp $(ONT).owl $(ONT)-basic.owl $(ONT).csv $(RELEASEDIR) &&\
-	git add $(RELEASEDIR)/*.owl 
+	git add $(RELEASEDIR)/*.owl
 	echo "Release files are now in $(RELEASEDIR) - now you should commit, push and make a release on github"
-	
-# create OWL from edit file 
+
+# create OWL from edit file -  reason relax reduce
 $(ONT).owl: $(SRC)
 	$(ROBOT)  reason -i $< -r ELK relax reduce -r ELK annotate -V $(BASE)/releases/`date +%Y-%m-%d`/$(ONT).owl -o $@
 
 # merge language annotations into separate -lang.owl - the input list needs to be manually updated
 $(ONT)-lang.owl: $(ONT).owl
-	$(ROBOT) merge -i $(ONT) -i $(JA) -i $(ES) -o $(ONT)-lang.owl
+	$(ROBOT) merge -i $(ONT).owl -i $(JA) -i $(ES) -o $(ONT)-lang.owl
 
 # create simplified OWL with only root DUO terms
 $(ONT)-basic.owl: $(ONT).owl root-terms.txt
@@ -41,11 +41,11 @@ $(ONT)-basic-lang.owl: $(ONT)-lang.owl root-terms.txt
 
 # create CSV format output of root terms
 $(ONT).csv: $(ONT)-basic.owl make-csv.sparql
-	$(ROBOT) query -i $(ONT)-basic.owl --query make-csv.sparql $(ONT).csv
+	$(ROBOT) query -i $(ONT)-basic.owl --query make-csv.sparql $(ONT).tsv
 
 # create CSV format output of root terms with translations
-$(ONT)-lang.csv: $(ONT)-basic-lang.owl make-csv.sparql
-	$(ROBOT) query -i $(ONT)-basic-lang.owl --query make-csv.sparql $(ONT)-lang.csv
+$(ONT)-lang.csv: $(ONT)-basic-lang.owl make-csv-lang.sparql
+	$(ROBOT) query -i $(ONT)-basic-lang.owl --query make-csv-lang.sparql $(ONT)-lang.tsv
 
 
 mirror/%.owl: $(SRC)
