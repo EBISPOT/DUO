@@ -11,7 +11,7 @@ JA=$(ONT)-japanese.owl
 ES=$(ONT)-spanish.owl
 
 # make all
-all: $(ONT).owl $(ONT)-lang.owl $(ONT)-basic.owl $(ONT).tsv $(ONT)-basic-lang.owl $(ONT)-lang.tsv
+all: $(ONT).owl $(ONT)-lang.owl $(ONT)-basic.owl $(ONT).tsv $(ONT)-basic-lang.owl $(ONT)-es.tsv $(ONT)-ja.tsv
 # make without translations
 no_lang: $(ONT).owl $(ONT)-basic.owl $(ONT).tsv
 
@@ -61,4 +61,4 @@ release: $(ONT).owl $(ONT)-basic.owl $(ONT).tsv
 # clean up old files before creating new ones
 .PHONY : clean
 clean :
-        -rm $(ONT).owl $(ONT)-lang.owl $(ONT)-basic.owl $(ONT)*.tsv $(ONT)-basic-lang.owl
+	-rm $(ONT).owl $(ONT)-lang.owl $(ONT)-basic.owl $(ONT)*.tsv $(ONT)-basic-lang.owl
