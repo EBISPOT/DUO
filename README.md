@@ -31,6 +31,7 @@ Table of Contents
       * [Funding](#funding)
       * [DUO logos](#duo-logos)
       * [DUO Pictograms](#duo-pictograms)
+      * [Translations](#translations)
       
       
 # DUO - the Data Use Ontology - the essentials
@@ -305,3 +306,8 @@ DUO logos were designed by Spencer Phillips - EMBL-EBI, 2019.
 DURI working group of [GEM Japan](https://www.amed.go.jp/en/aboutus/collaboration/ga4gh_gem_japan.html) proposes the DUO pictograms for eight representative DUO codes, as a contribution to GA4GH.  The colors of the pictograms for the five DUO codes for “data limitation” are inspired by the hierarchy of the DUO codes and the colors of the DUO icons.  Those pictograms are originally designed by Akio Nagano ([PENQE](http://penqe.com/)).
 
 DUO pictograms are available in [SVG](https://github.com/EBISPOT/DUO/blob/master/doc/figs/pictograms/duo_svg) or [PNG](https://github.com/EBISPOT/DUO/blob/master/doc/figs/pictograms/duo_png) format.
+
+## Translations
+Disclaimer: From time to time, GA4GH offers translations from English into other languages as a service to the community, with the goal of broadening access. While we have endeavored to provide accurate translations, GA4GH cannot guarantee accuracy, reliability, or correctness, nor does GA4GH accept liability for unintended meanings, differences, discrepancies, or infringement.
+
+We welcome ideas for new translations. Please do not publish or share unofficial translations of GA4GH products and materials. If you would like to suggest a language or are interested in translating, contact [info@ga4gh.org](mailto:info@ga4gh.org).
