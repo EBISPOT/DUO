@@ -31,6 +31,7 @@ Table of Contents
       * [Funding](#funding)
       * [DUO logos](#duo-logos)
       * [DUO Pictograms](#duo-pictograms)
+      * [Translations](#translations)
       
       
 # DUO - the Data Use Ontology - the essentials
@@ -72,7 +73,7 @@ http://purl.obolibrary.org/obo/duo.owl
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/duo-edit.owl](src/ontology/duo-edit.owl)
+Editors of this ontology should modify the edit version, [src/ontology/duo-edit.owl](src/ontology/duo-edit.owl) and re-generate the OWL files using the guidance in the src [README](src/ontology/README.md).
 
 ## Contact
 Please use this GitHub repository's [Issue tracker](https://github.com/EBISPOT/duo/issues) to request new terms/classes or report errors or specific concerns related to the ontology.
@@ -305,3 +306,37 @@ DUO logos were designed by Spencer Phillips - EMBL-EBI, 2019.
 DURI working group of [GEM Japan](https://www.amed.go.jp/en/aboutus/collaboration/ga4gh_gem_japan.html) proposes the DUO pictograms for eight representative DUO codes, as a contribution to GA4GH.  The colors of the pictograms for the five DUO codes for “data limitation” are inspired by the hierarchy of the DUO codes and the colors of the DUO icons.  Those pictograms are originally designed by Akio Nagano ([PENQE](http://penqe.com/)).
 
 DUO pictograms are available in [SVG](https://github.com/EBISPOT/DUO/blob/master/doc/figs/pictograms/duo_svg) or [PNG](https://github.com/EBISPOT/DUO/blob/master/doc/figs/pictograms/duo_png) format.
+
+## Translations
+> **Disclaimer:** From time to time, GA4GH offers translations from English into other languages as a service to the community, with the goal of broadening access. While we have endeavored to provide accurate translations, GA4GH cannot guarantee accuracy, reliability, or correctness, nor does GA4GH accept liability for unintended meanings, differences, discrepancies, or infringement.
+>
+> We welcome ideas for new translations. Please do not publish or share unofficial translations of GA4GH products and materials. If you would like to suggest a language or are interested in translating, contact [info@ga4gh.org](mailto:info@ga4gh.org).
+
+Translations of root DUO terms for informational purposes are provided in the following languages.
+ - Japanese (committed 2020-07-30 hash: [ad64dec](https://github.com/EBISPOT/DUO/commit/ad64deccf812036cb861ee4aa3e57c0a0e0665e9))
+   - Based on DUO version: [v2020-02-03](https://github.com/EBISPOT/DUO/releases/tag/v2020-02-03)
+   - Authors: Chisato Yamasaki, Soichi Ogishima
+   - Missing:
+      - DUO:0000043	CC
+      - DUO:0000046	NCU
+      - DUO:0000015	NMDS
+      - DUO:0000044	NPOA
+      - DUO:0000018	NPUNCU
+   - Deprecated:
+      - DUO:0000005 - GRU-CC deprecated since 2021-02-23 hash: [933d5c6](https://github.com/EBISPOT/DUO/commit/933d5c6828cef128d3c796e1682d33abd9505a36)
+      - DUO:0000014 - RU deprecated as modifier of GRU-CC
+
+ - Spanish (committed 2022-09-20 hash: []())
+   - Based on DUO version: [v2021-02-23](https://github.com/EBISPOT/DUO/releases/tag/v2021-02-23)
+   - Authors: Jonathan Lawson, Pablo Daniel Lapunzina, Aina Jené Cortada
+   - Missing:  
+      - DUO:0000028	IS
+      - DUO:0000027	PS
+      - DUO:0000012	RS
+      - DUO:0000025	TS
+      - DUO:0000026	US
+
+The translations do not follow the same release cycle as the official English terms. Therefore, newer terms may be missing or deprecated ones still present. Ultimately, users should use discretion and may or may not wish to merge these terms into the current OWL files for programmatic use (see editor [README](src/ontology/README.md) in src/ontology). 
+Regarding format, the files are initially provided as language tagged RDF/OWL labels for the DUO Identifiers, e.g. DUO_0000004 (no restriction) is tagged as "Sin restricciones" with the xml:lang="es" tag in [duo-spanish.owl](src/ontology/duo-spanish.owl). These tags allow multiple languages to be merged/referenced/queried in a single OWL file.
+
+
